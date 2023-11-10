@@ -10,5 +10,5 @@
 * [Alisson Chagas](https://github.com/AlisonChagas)
 * [?](https://github.com/)
 * [Ricardo Jeferson da Silva Francisco](https://github.com/totorourbem)
-* [Rômujlo Duarte](https://github.com/)
+* [Rômulo Duarte](https://github.com/)
 * [Sérgio Patrício](https://github.com/spatricio)

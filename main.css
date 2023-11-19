@@ -1,0 +1,33 @@
+:root{
+    --marinho:var(#001F3F);
+    --aço:var(#808080);
+    --cinza:var(#F5F5F5);
+    --coral:var(#FF6B6B);
+    --branco:var(#fff);
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto Slab', serif;
+}
+body {
+    background: var(--cinza)
+}
+.search_area {
+    background: var(--aço)
+}
+.ad {
+    background:var(--branco)
+}
+nav{
+    background: var(--branco)
+}
+#line_menu {
+    color:var(--marinho)
+}
+h1 {
+    color: var(--marinho)
+}
+h2 {
+    color: var(--marinho)
+}
+p {
+    color: var(--aço)
+}

@@ -1,33 +1,121 @@
 :root{
-    --marinho:var(#001F3F);
-    --aço:var(#808080);
-    --cinza:var(#F5F5F5);
-    --coral:var(#FF6B6B);
-    --branco:var(#fff);
+    --marinho:#001F3F;
+    --aço:#808080;
+    --cinza:#F5F5F5;
+    --coral:#FF6B6B;
+    --branco:#ffffff;
     font-family: 'Open Sans', sans-serif;
     font-family: 'Roboto Slab', serif;
 }
 body {
-    background: var(--cinza)
-}
-.search_area {
-    background: var(--aço)
-}
-.ad {
-    background:var(--branco)
-}
-nav{
-    background: var(--branco)
-}
-#line_menu {
-    color:var(--marinho)
+    background: var(--cinza);
+    display: flex;
+    flex-direction: row;
 }
 h1 {
-    color: var(--marinho)
+    color: var(--marinho);
+    font-family: 'Roboto Slab', serif;
 }
 h2 {
-    color: var(--marinho)
+    color: var(--marinho);
+    font-family: 'Roboto Slab', serif;
 }
 p {
-    color: var(--aço)
+    color: var(--aço);
+    font-family: 'Open Sans', sans-serif;
+}
+#modal_menu_open {
+    background: var(--branco);
+    width: 384px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+#modal_menu_closed{
+    background: var(--branco);
+    width: 384px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#search_area {
+    width: 384px;
+    height: 155px;
+    background: var(--aço);
+}
+.fields {
+	
+	width: 340px;
+	height: 100px;
+}
+
+.fields input {
+    position: relative;
+	font-size: 1em;
+	width: 340px;
+	height: 50px;
+	margin-top: 50px;
+    margin-left: 20px;
+	border-radius: 5px;
+	border: 0px;
+	padding-left: 30px;
+}
+label {
+	position: relative;
+}
+label:after {
+	font-family: FontAwesome;
+	float: left;
+	margin-left: 0;
+	content: "\f002";
+	color: var(--aço);
+
+	left: 10px;
+	position: absolute;
+	top: 3;
+	bottom: 0;
+	margin: auto;
+}
+label:nth-child(3):after {
+	content: "\f13e";
+nav{
+    background: var(--branco);
+}
+.line_menu {
+    color:var(--marinho);
+    width: 325px;
+}
+#container {
+    display: flex;
+    height: 100vh;
+}
+#context {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--cinza);
+ }
+header {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    align-items: center;
+  }
+#menusvg{
+    fill: var(--coral);
+}  
+h1 {
+    color: var(--marinho);
+    font-family: 'Roboto Slab', serif;
+}
+h2 {
+    color: var(--marinho);
+    font-family: 'Roboto Slab', serif;
+}
+p {
+    color: var(--aço);
+    font-family: 'Open Sans', sans-serif;
+}
+}
+.ad {
+    background:var(--branco);
 }

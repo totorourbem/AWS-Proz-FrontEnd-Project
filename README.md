@@ -25,3 +25,30 @@
 * [Rômulo Duarte](https://github.com/romuloduarte)
 * [Sérgio Patrício](https://github.com/spatricio)
 * [Wesley padilha](https://github.com/wesleypadilha)
+
+# Troubleshooter - Projeto Proz/TalenotoCloud/AWS
+
+## Estrutura HTML:
+
+ * O modal menu já está ok, falta implementar JS;
+ * O padrão de cores está ok;
+ * Dinamizar botões de login;
+ * Pensar futuramente em proxima tela de cadastro;
+ * Onde podemos alocar a área de login no site?
+ 
+
+## Estrutura CSS
+
+ * Precisa refatorar o CSS;
+ * Os elementos filhos do `<header>`, do `<content>` e da `<search-area>`do menu não estão aceitando as configurações flex. Tem de refatorar;
+ * Reorganizar os inputs de pesquisa e do caaadastro, porque a lupinha está aparecendo em todos;
+ 
+## Conteúdo Site
+
+ * PRecisamos de um nome dee de definir a região de atuação do hub, alem de pensar um logo;
+ * Texto do index gerado pela Monica.Ai;
+ * Esqueleto do formulário da página de cadastro ok;
+ * Marretado botoes de login externos (a implementar via API);
+ * Em ofertas foi marretado as ofertas do ML, aleatório (ver depois como fica em API)
+ * Em ofertas, crierar botão para link de folhetos de ofertas/comunidade no Whats para distribuição de fohetos
+ * imagens dos prestadores ciradas com a Leonardo Ai, usando o prompt ""Describe a man/woman wearing a white safety helmet with reflective strip details. They are dressed in a navy-blue long-sleeved shirt with a fluorescent yellow safety vest on top. In their hands, this person holds a work tool such as a hammer or a wrench. Their eyes are focused on a blueprint or technical sketch held in the other hand. The face displays a serious and concentrated expression, indicating focus and determination in the task at hand. Surrounding them are stacked construction materials like bricks, wooden planks, or tools, suggesting an active and productive work environment." com a ferramnta "3D Animation Style"

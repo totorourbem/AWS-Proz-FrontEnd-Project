@@ -24,27 +24,43 @@ p {
     color: var(--aço);
     font-family: 'Open Sans', sans-serif;
 }
-#modal_menu_open {
-    background: var(--branco);
-    width: 384px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
- }
-#modal_menu_closed{
-    background: var(--branco);
-    width: 384px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+a{
+    color:var(--marinho)
 }
-#search_area {
+a:hover{
+    color: var(--coral)
+}
+#modal-menu-open {
+    background: var(--branco);
+    width: 384px;
+    height: 1080px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    left: 0;
+    z-index: 0,
+ }
+#modal-menu-closed{
+    background: var(--branco);
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    left: -384px;
+    z-index: 0,
+}
+#search-area {
     width: 384px;
     height: 155px;
     background: var(--aço);
 }
+#pesquisa{
+    position:600px 0 0 0 ;
+    display: float;
+}
 .fields {
-	
 	width: 340px;
 	height: 100px;
 }
@@ -69,7 +85,6 @@ label:after {
 	margin-left: 0;
 	content: "\f002";
 	color: var(--aço);
-
 	left: 10px;
 	position: absolute;
 	top: 3;
@@ -80,42 +95,52 @@ label:nth-child(3):after {
 	content: "\f13e";
 nav{
     background: var(--branco);
+    align-self: center;
 }
-.line_menu {
-    color:var(--marinho);
-    width: 325px;
-}
-#container {
+header {
     display: flex;
-    height: 100vh;
+    justify-content: space-between;
+    align-items: center;
+    height: 155px;
+    border: 2px solid red;
+}
+ 
+div#menu-button {
+    border: 2px solid red;
+    height: 155px;
+    width: 95px;
+ 
+ 
+div#logo {
+    border: 2px solid red;
+    height: 155px;
+    flex-grow: 1;
+ }
+ 
+div#social-dock {
+    border: 2px solid red;
+    height: 155px;
+    width: 250px;
+    display: flex;
 }
 #context {
     display: flex;
     flex-direction: column;
+    align-items: center; /* Centraliza os itens horizontalmente */
+    justify-content: space-between; /* Distribui os itens verticalmente */
     background-color: var(--cinza);
- }
-header {
-    display: flex;
-    flex-direction: column-reverse;
-    justify-content: space-between;
-    align-items: center;
-  }
-#menusvg{
-    fill: var(--coral);
-}  
-h1 {
-    color: var(--marinho);
-    font-family: 'Roboto Slab', serif;
+    padding: 20px; /* Adiciona um espaçamento interno */
 }
-h2 {
-    color: var(--marinho);
-    font-family: 'Roboto Slab', serif;
+#content {
+    width: 100%; /* Ocupa todo o espaço disponível */
 }
-p {
-    color: var(--aço);
-    font-family: 'Open Sans', sans-serif;
+
+#ad {
+    width: 200px; /* Largura de 200px */
 }
-}
-.ad {
-    background:var(--branco);
+
+footer {
+    width: 100%; /* Ocupa todo o espaço disponível */
+    background-color: var(--coral)
+    border-radius: 10px;
 }

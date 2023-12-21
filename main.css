@@ -71,6 +71,12 @@ ol, ul {
     font-family: 'Open Sans', sans-serif;
     font-family: 'Roboto Slab', serif;
 }
+/*Linhas para visulaizar containers*/
+div {
+    border: solid 2px var(--coral2);
+}
+
+
 /*Padronagem de elementos mais genéricos do  site*/
 
 body {
@@ -102,9 +108,10 @@ a:hover{
 a:hover ::after {
     color: var(--aço3)
 }
+/*Areá de menu do site*/
 
-/*#modal-menu-open {
-    background: var(--branco);
+#modal-menu-open {
+    background: var(--cinza2);
     width: 384px;
     height: 1080px;
     display: flex;
@@ -115,7 +122,7 @@ a:hover ::after {
     z-index: 0,
  }
 #modal-menu-closed{
-    background: var(--branco);
+    background: var(--cinza2);
     width: 200px;
     display: flex;
     flex-direction: column;
@@ -125,51 +132,49 @@ a:hover ::after {
     z-index: 0,
 }
 #search-area {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 384px;
     height: 155px;
-    background: var(--aço);
+    background: var(--aço2);
 }
 #pesquisa{
-    position:600px 0 0 0 ;
-    display: float;
+    width: 100%;
+    height: 40px;
 }
-.fields {
-	width: 340px;
-	height: 100px;
-}
-
-.fields input {
-    position: relative;
-	font-size: 1em;
-	width: 340px;
-	height: 50px;
-	margin-top: 50px;
-    margin-left: 20px;
-	border-radius: 5px;
-	border: 0px;
-	padding-left: 30px;
-}
-label {
-	position: relative;
-}
-label:after {
-	font-family: FontAwesome;
-	float: left;
-	margin-left: 0;
-	content: "\f002";
-	color: var(--aço);
-	left: 10px;
-	position: absolute;
-	top: 3;
-	bottom: 0;
-	margin: auto;
-}
-label:nth-child(3):after {
-	content: "\f13e";
 nav{
-    background: var(--branco);
+    background: var(--cinza1);
     align-self: center;
 }
+nav ul{
+    margin-top: 20px;;
+    padding: 20px;
+}
+
+/*Solução mais simples pro campo de pesquisa e placeholder*/
+
+#search-area label {
+    position: relative;
+    display: inline-block;
+ }
+ 
+ .search-icon {
+    position: absolute;
+    left: 10px; /* ajuste conforme necessário */
+    top: 50%;
+    transform: translateY(-50%);
+}
+ 
+.search-input {
+    padding-left: 40px; /* ajuste conforme necessário */
+}
+
+#pesquisa::placeholder {
+    font-family: 'Open Sans', sans-serif;
+  }
+
+/*
 header {
     display: flex;
     justify-content: space-between;
@@ -209,13 +214,16 @@ div#social-dock {
     width: 100%; 
 }
 /*
-#ad {
-    width: 200px; 
-}
+
 */
-/*
+#ad {
+    width: 200px;
+    background-color: var(--branco); 
+}
+
 footer {
     width: 100%;
-    background-color: var(--coral);
+    height: 72px;
+    background-color: var(--coral2);
     border-radius: 10px;
 }

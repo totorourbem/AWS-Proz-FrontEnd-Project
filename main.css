@@ -1,37 +1,117 @@
+/* NORMALIZE CSS */
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+ol, ul {
+    list-style: none;
+}
+
+/*FIM DO NORMALIZE CSS*/
+
+/*Padrão de esclaa de cores e fontes*/
 :root{
-    --marinho:#001F3F;
-    --aço:#808080;
-    --cinza:#F5F5F5;
-    --coral:#FF6B6B;
+    --marinho1:#001F3F;
+    --marinho2: #31466A;
+    --aço1:#808080;
+    --aço2: #656565;
+    --aço3: #616161;
+    --cinza1:#F5F5F5;
+    --cinza2: #ebebeb;
+    --cinza3: #c2c2c2;
+    --coral1:#FF6B6B;
+    --coral2: #8F001A;
     --branco:#ffffff;
     font-family: 'Open Sans', sans-serif;
     font-family: 'Roboto Slab', serif;
 }
+/*Linhas para visulaizar containers*/
+div {
+    border: solid 2px var(--coral2);
+}
+
+
+/*Padronagem de elementos mais genéricos do  site*/
+
 body {
-    background: var(--cinza);
+    background: var(--cinza1);
     display: flex;
     flex-direction: row;
 }
+
 h1 {
-    color: var(--marinho);
+    color: var(--marinho1);
     font-family: 'Roboto Slab', serif;
 }
 h2 {
-    color: var(--marinho);
+    color: var(--marinho1);
     font-family: 'Roboto Slab', serif;
 }
 p {
-    color: var(--aço);
+    color: var(--aço1);
     font-family: 'Open Sans', sans-serif;
 }
 a{
-    color:var(--marinho)
+    color:var(--marinho2);
+    text-decoration: none;
+    transition: color 0.3s ease;
 }
 a:hover{
-    color: var(--coral)
+    color: var(--coral1)
 }
+a:hover ::after {
+    color: var(--aço3)
+}
+/*Areá de menu do site*/
+
 #modal-menu-open {
-    background: var(--branco);
+    background: var(--cinza2);
     width: 384px;
     height: 1080px;
     display: flex;
@@ -42,7 +122,7 @@ a:hover{
     z-index: 0,
  }
 #modal-menu-closed{
-    background: var(--branco);
+    background: var(--cinza2);
     width: 200px;
     display: flex;
     flex-direction: column;
@@ -52,51 +132,49 @@ a:hover{
     z-index: 0,
 }
 #search-area {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 384px;
     height: 155px;
-    background: var(--aço);
+    background: var(--aço2);
 }
 #pesquisa{
-    position:600px 0 0 0 ;
-    display: float;
+    width: 100%;
+    height: 40px;
 }
-.fields {
-	width: 340px;
-	height: 100px;
-}
-
-.fields input {
-    position: relative;
-	font-size: 1em;
-	width: 340px;
-	height: 50px;
-	margin-top: 50px;
-    margin-left: 20px;
-	border-radius: 5px;
-	border: 0px;
-	padding-left: 30px;
-}
-label {
-	position: relative;
-}
-label:after {
-	font-family: FontAwesome;
-	float: left;
-	margin-left: 0;
-	content: "\f002";
-	color: var(--aço);
-	left: 10px;
-	position: absolute;
-	top: 3;
-	bottom: 0;
-	margin: auto;
-}
-label:nth-child(3):after {
-	content: "\f13e";
 nav{
-    background: var(--branco);
+    background: var(--cinza1);
     align-self: center;
 }
+nav ul{
+    margin-top: 20px;;
+    padding: 20px;
+}
+
+/*Solução mais simples pro campo de pesquisa e placeholder*/
+
+#search-area label {
+    position: relative;
+    display: inline-block;
+ }
+ 
+ .search-icon {
+    position: absolute;
+    left: 10px; /* ajuste conforme necessário */
+    top: 50%;
+    transform: translateY(-50%);
+}
+ 
+.search-input {
+    padding-left: 40px; /* ajuste conforme necessário */
+}
+
+#pesquisa::placeholder {
+    font-family: 'Open Sans', sans-serif;
+  }
+
+/*
 header {
     display: flex;
     justify-content: space-between;
@@ -126,21 +204,26 @@ div#social-dock {
 #context {
     display: flex;
     flex-direction: column;
-    align-items: center; /* Centraliza os itens horizontalmente */
-    justify-content: space-between; /* Distribui os itens verticalmente */
+    align-items: center; 
+    justify-content: space-between; 
     background-color: var(--cinza);
-    padding: 20px; /* Adiciona um espaçamento interno */
+    padding: 20px; 
 }
+/*
 #content {
-    width: 100%; /* Ocupa todo o espaço disponível */
+    width: 100%; 
 }
+/*
 
+*/
 #ad {
-    width: 200px; /* Largura de 200px */
+    width: 200px;
+    background-color: var(--branco); 
 }
 
 footer {
-    width: 100%; /* Ocupa todo o espaço disponível */
-    background-color: var(--coral)
+    width: 100%;
+    height: 72px;
+    background-color: var(--coral2);
     border-radius: 10px;
 }

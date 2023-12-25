@@ -13,28 +13,35 @@
     <script src='main.js'></script>
 </head>
 <body>
-    <div id='modal-menu-opned'>
+    <div id='modal-menu-open'>
         <div id='search-area'>
-            <label><input type="Pesquisa" maxlength="50" name="pesquisa" id="pesquisa" placeholder="        Pesquise no site..."></label>
+          <label>
+            <input type="search" maxlength="70" name="pesquisa" id="pesquisa" class="search-input" placeholder="Pesqiuise no site...">
+            <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" class="search-icon">
+                <circle cx="11" cy="11" r="8"></circle>
+                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+            </svg>
+        </label>
 		<br>
         </div>
+
         <nav>
             <ul>
-                <li><a href='./index.html'>Inicial</a></li>
-                <hr style= color: #001F3F; height: 2px; width: 325px">
+              <li><a href='./index.html'>Inicial</li>
+                <hr style="border: none; border-top: 2px dotted #31466A;">
                 <li><a href='./cadastre-se.html'>Cadastre-se</a></li>
-                <hr style= color: #001F3F; height: 2px; width: 325px">
+                <hr style="border: none; border-top: 2px dotted #31466A;">
                 <li><a href=#></a>Prestadores de serviços</a></li>
-                <hr style= color: #001F3F; height: 2px; width: 325px">
-                <li><a href='./ofertas.html'>Ofertas</a>a></li>
-                <hr style= "color: #001F3F; height: 2px; width: 325px">
-                <li><a href='./contato.html'>Contato</a></li>
-                <hr style= "color: #001F3F; height: 2px; width: 325px">
+                <hr style="border: none; border-top: 2px dotted #31466A;">
+                <li><a href='./ofertas.html' class="menu-item">Ofertas</a></li>
+                <hr style="border: none; border-top: 2px dotted #31466A;">
+                <li><a href='./contato.html' class="menu-item">Contato</a></li>
+                <hr style="border: none; border-top: 2px dotted #31466A;">
             </ul>
 
         </nav>
      </div>   
-        <div id = 'content'>
+        <div id = 'content-menu-open'>
             <header>
                 <div id='menu-button'>
                     <img id="menusvg" src="./Images/bars-solid.svg" width="90px" height="90px" />
@@ -43,13 +50,15 @@
                     <h1>Logo do site</h1>
                 </div>
                 <div id='social-dock'>
-                    <img src="./Images/facebook.svg" width="50px" height="50px" />
-                    <img src="./Images/x.svg" width="50px" height="50px" />
-                    <img src="./Images/whatsapp.svg" width="50px" height="50px" />
-                    <img src="./Images/linkedin.svg" width="50px" height="50px" />
+                  <img src="./Images/facebook.svg" class='social-icon'/>
+                  <img src="./Images/x.svg" class='social-icon'/>
+                  <img src="./Images/whatsapp.svg" class='social-icon'/>
+                  <img src="./Images/linkedin.svg" class='social-icon'/>
                 </div>
                 <hr style="border: none; border-top: 1px solid #FF6B6B; color: #FF6B6B; background-color: #FF6B6B; height: 10px; width: auto">
             </header>
+            <div id="main-content">
+              <article>
             <h1>Conheça alguns de nosso prestadores, cadastrados nesse hub!</h1>
             <table>
                 <tr>
@@ -66,11 +75,11 @@
                       Especialização: Carpintaria<br>
                       Cadastre-se e veja mais...<br>
                   </td>
-                  <td><img src="./Assets/Colab4.jpg" width='160' height='208'/></td>
+                  <td><img src="./Assets/colab4.jpg" width='160' height='208'/></td>
                   <td>Nome: Antoni Calros <br>
-                    Especialização: Hidrçaulica<br>
+                    Especialização: Hidraulica<br>
                     Cadastrre-se e veja mais...<br>
-                    <td><img src="./Assets/Colab3.jpg" width='160' height='208'/></td>
+                    <td><img src="./Assets/colab3.jpg" width='160' height='208'/></td>
                   <td>Nome: Maria José <br>
                     Especialização: Azulejista<br>
                     Cadastrre-se e veja mais...<br>
@@ -78,7 +87,7 @@
                    </td>
                 </tr>
                 <tr>
-                  <td><img src="./Assets/Colab3.jpg" width='160' height='208'/></td>
+                  <td><img src="./Assets/colab3.jpg" width='160' height='208'/></td>
                   <td>Nome: Marcia Campos <br>
                     Especialização: Reformas em geral<br>
                     Cadastrre-se e veja mais...<br>
@@ -88,19 +97,19 @@
                       Especialização: Elétrica<br>
                       Cadastre-se e veja mais...<br>
                   </td>
-                  <td><img src="./Assets/Colab2.jpg" width='160' height='208'/></td>
+                  <td><img src="./Assets/colab2.jpg" width='160' height='208'/></td>
                   <td>Nome: Carol Campos <br>
                     Especialização: designer de interiores<br>
                     Cadastrre-se e veja mais...<br>
                   </td>
                 </tr>
                 <tr>
-                  <td><img src="./Assets/Colab2.jpg" width='160' height='208'/></td>
+                  <td><img src="./Assets/colab2.jpg" width='160' height='208'/></td>
                   <td>Nome: vivan Prado <br>
                     Especialização: Acabamentos<br>
                     Cadastrre-se e veja mais...<br>
                   </td>
-                  <td><img src="./Assets/Colab4.jpg" width='160' height='208'/></td>
+                  <td><img src="./Assets/colab4.jpg" width='160' height='208'/></td>
                   <td>Nome: Kleber Dantas <br>
                     Especialização: Arquiteto<br>
                     Cadastrre-se e veja mais...<br>
@@ -112,7 +121,7 @@
                   </td>
                 </tr>
                 <tr>
-                  <td><img src="./Assets/Colab3.jpg" width='160' height='208'/></td>
+                  <td><img src="./Assets/colab3.jpg" width='160' height='208'/></td>
                   <td>Nome: Avelina do Carmo <br>
                     Especialização: Alvenaria<br>
                     Cadastrre-se e veja mais...<br>
@@ -121,7 +130,7 @@
                   <td>Nome: José Dantas <br>
                     Especialização:marido de aluguel<br>
                     Cadastrre-se e veja mais...<br>
-                   <td><img src="./Assets/Colab2.jpg" width='160' height='208'/></td>
+                   <td><img src="./Assets/colab2.jpg" width='160' height='208'/></td>
                         <td>Nome: Wanderleia Campos<br>
                           Especialização: Reformas em geral<br>
                           Cadastrre-se e veja mais...<br> 
@@ -129,8 +138,10 @@
                   </td>
                 </tr>
               </table>
+              </article>
             <div id='ad'>
                 <p>Area de anuncios</p>
+            </div>    
             </div>
             <footer>
                 <p>Área de rodapé</p>

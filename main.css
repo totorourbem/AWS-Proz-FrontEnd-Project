@@ -71,11 +71,11 @@ ol, ul {
     font-family: 'Open Sans', sans-serif;
     font-family: 'Roboto Slab', serif;
 }
-/*Linhas para visulaizar containers*/
+/*Linhas para visulaizar containers
 div {
     border: solid 2px var(--coral2);
 }
-
+*/
 
 /*Padronagem de elementos mais genéricos do  site*/
 
@@ -117,19 +117,17 @@ a:hover ::after {
     display: flex;
     flex-direction: column;
     align-items: center;
-    position: absolute;
+    position: fixed;
     left: 0;
-    z-index: 0,
- }
+}
 #modal-menu-closed{
     background: var(--cinza2);
-    width: 200px;
+    width: 384px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    position: absolute;
+    position: fixed;
     left: -384px;
-    z-index: 0,
 }
 #search-area {
     display: flex;
@@ -173,57 +171,105 @@ nav ul{
 #pesquisa::placeholder {
     font-family: 'Open Sans', sans-serif;
   }
+/*Área do conteudo do site esse priemrio item par ajustá-lo conforme o menu*/
+#content-menu-open {
+    margin-left: 384px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}  
+#content-menu-closed {
+    width: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items:first baseline;
+}  
 
-/*
 header {
     display: flex;
-    justify-content: space-between;
+    justify-content: center ;
     align-items: center;
-    height: 155px;
-    border: 2px solid red;
+    height: 30%;
+    width: 100%;
 }
  
 div#menu-button {
-    border: 2px solid red;
+    display: flex;
+    align-items: center;
     height: 155px;
-    width: 95px;
- 
+    width: 10%;
+    align-items: center;
+}
  
 div#logo {
-    border: 2px solid red;
+    display: flex;
+    align-items: center;
     height: 155px;
-    flex-grow: 1;
+    width: 70%; 
  }
  
 div#social-dock {
-    border: 2px solid red;
     height: 155px;
-    width: 250px;
+    width: 20%;
     display: flex;
+    align-items: center;
+    justify-content: right;
 }
+
+.social-icon {
+    width: 50px;
+    height: 50px;
+    margin: 2px;
+    padding: 2px;
+}
+
 #context {
     display: flex;
-    flex-direction: column;
     align-items: center; 
-    justify-content: space-between; 
-    background-color: var(--cinza);
+    justify-content: center; 
+    background-color: var(--cinza1);
     padding: 20px; 
+    border: 10px;
+    width: 80%;
 }
-/*
-#content {
-    width: 100%; 
-}
-/*
+#main-content {
+    padding: 20px; 
+    border: 10px;
+    display: flex;
+    flex-direction: row;
+ }
 
-*/
+article {
+    width: 80%;
+    height: 80%;
+    text-align: justify;
+}
+
 #ad {
-    width: 200px;
+    border: solid 2px var(--marine2);
+    width: 20%;
     background-color: var(--branco); 
+    height: 80%;
 }
 
 footer {
+    padding: 20px; 
+    border: 10px;
     width: 100%;
-    height: 72px;
+    height: 20%;
     background-color: var(--coral2);
     border-radius: 10px;
+}
+
+/*Configurações espeçifocas para a página cadastre-se*/
+
+form {
+    padding: 5px;
+}
+
+.article-form {
+    width: 40%;
+    padding: 10px;
+    margin: 10px;
 }

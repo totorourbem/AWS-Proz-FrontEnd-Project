@@ -9,7 +9,7 @@
 
 ## Status do Projeto
 
-<p> ⚙ Em desenvolvimento ⚙ </p>
+<p> ⚙ Em desenvolvimento - Sprint III⚙ </p>
 
 ## Descrição do projeto 
 
@@ -31,7 +31,7 @@
 ## Estrutura HTML:
 
  * O modal menu já está ok, falta implementar JS;
- * O padrão de cores está ok;
+ * **PADRONAGEM DAS CORES FINALIZADA**;
  * Dinamizar botões de login;
  * Pensar futuramente em proxima tela de cadastro;
  * Onde podemos alocar a área de login no site?
@@ -39,9 +39,7 @@
 
 ## Estrutura CSS
 
- * Precisa refatorar o CSS;
- * Os elementos filhos do `<header>`, do `<content>` e da `<search-area>`do menu não estão aceitando as configurações flex. Tem de refatorar;
- * Reorganizar os inputs de pesquisa e do caaadastro, porque a lupinha está aparecendo em todos;
+ * **FINALIZADO**;
  
 ## Conteúdo Site
 

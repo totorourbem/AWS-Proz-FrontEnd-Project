@@ -3,7 +3,7 @@
 <head>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Page Title</title>
+    <title>Amigão - Cadastre-se</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -11,18 +11,14 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto+Slab:wght@700&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" media="screen" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
     <script src='main.js'></script>
+    <script async src="https://cse.google.com/cse.js?cx=27a9e4d1557494c86">
+    </script>
 </head>
 <body>
-    <div id='modal-menu-open'>
+    <div id='burger-menu-open'>
         <div id='search-area'>
-            <label>
-                <input type="search" maxlength="70" name="pesquisa" id="pesquisa" class="search-input" placeholder="Pesqiuise no site...">
-                <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" class="search-icon">
-                    <circle cx="11" cy="11" r="8"></circle>
-                    <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
-                </svg>
-            </label>
-		    <br>
+            <!-- Campo de pesquisa do Google Custom Search -->
+            <div class="gcse-searchbox-only"></div>
         </div>
 
         <nav>
@@ -40,20 +36,49 @@
             </ul>
 
         </nav>
-     </div>   
+     </div>
+        
+     <div id="modal-login-close">
+        <div id="modal-content">
+            <span id="close-modal">&times;</span>
+            <section>
+                <p> Insira seus dados para logar em nossa página ou <a href="./cadastre-se.html"> cadastre-se.</a></p>
+                <label for="email-login">Email:</label>
+                <input type="email" name="email-login" id="email-login">
+                <br>
+                <label for="senha-login">Senha: </label>
+                <input type="password" name="senha-login" id="senha-login">
+                <br>
+                <p> ou logue-se com uma de suas redes sociais</p>
+                <br>
+                <img src="./Assets/Continue_Gg.png" alt="Continue com Google" />
+                <br>
+                <img src="./Assets/Continue_FB.png" alt="Continue com Facebook" />
+                <br>
+            </section>
+        </div>
+    </div>
+
         <div id = 'content-menu-open'>
             <header>
                 <div id='menu-button'>
                     <img id="menusvg" src="./Images/bars-solid.svg" width="90px" height="90px" />
                 </div>
                 <div id='logo'>
-                    <h1>Logo do site</h1>
+                    <span>
+                    <img src="./Images/Logo-bricks.svg" alt="Logo" height="80px">
+                    </span>
+                    <span id="sublogo">
+                    <h1>Amigão</h1>
+                    <h2>Seu hub de construção!</h2>
+                    </span>
                 </div>
                 <div id='social-dock'>
                     <img src="./Images/facebook.svg" class='social-icon'/>
                     <img src="./Images/x.svg" class='social-icon'/>
                     <img src="./Images/whatsapp.svg" class='social-icon'/>
                     <img src="./Images/linkedin.svg" class='social-icon'/>
+                    <img src="./Images/login.svg" class='social-icon'/>
                 </div>
                 <hr style="border: none; border-top: 1px solid #FF6B6B; color: #FF6B6B; background-color: #FF6B6B; height: 10px; width: auto">
             </header>
@@ -63,39 +88,41 @@
                 <p> Seja como prestador de serviços ou cliente à procura de prestador, podemos ser uma ferramenta útil para sua construção ou reforma.</p>
                 <form action="">
                     <section>
-                        <label for="nome">Nome:</label>
-                        <input type="text" name="nome" id="nome">
+                        <label for="nome-cad">Nome:</label>
+                        <input type="text" name="nome-cad" id="nome-cad">
                         <br>
-                        <label for="email">Email:</label>
-                        <input type="email" name="email" id="email">
+                        <label for="email-cad">Email:</label>
+                        <input type="email" name="email-cad" id="email-cad">
                         <br>
-                        <label for="nome">Telefone:</label>
-                        <input type="tel" name="telefone" id="telefone">
+                        <label for="fone-cad">Fone: </label>
+                        <input type="tel" name="fone-cad" id="fone-cad">
+                        <br>
+                        <label for="senha-cad">Senha: </label>
+                        <input type="password" name="senha-cad" id="senha-cad">
                         <br>
                     </section>
                     <section>
-                        <input type="checkbox" name="tipo-de-cadastro" id="'Prestador">
+                        <input type="radio" name="tipo-de-cadastro" id="'Prestador">
                         <label for="Prestador">Prestador de Serviços</label>
-                        <p><b>E/OU</b></p>
-                        <input type="checkbox" name="tipo-de-cadastro" id="'Cliente">
+                        <p><b>OU</b></p>
+                        <input type="radio" name="tipo-de-cadastro" id="'Cliente">
                         <label for="Cliente">Contratante/Cliente</label>
                     </section>
                     <button type="submit">Enviar dados e continuar</button>  
                 </form>
                 </article>
                 <article class="article-form">
-                <p> Ou use um de seus logins nas seguintes plataformas para iniciar seu cadastro:</p>
+                <h2> Ou use um de seus logins nas seguintes plataformas para iniciar seu cadastro:</h2>
+                <br>
                 <img src="./Assets/Continue_Gg.png" alt="Continue com Google" />
                 <br>
                 <img src="./Assets/Continue_FB.png" alt="Continue com Facebook" />
                 <br>
                 </article>
-                <div id='ad'>
-                <p>Area de Anunucios</p>
-                </div>
+                
                 </div>
             <footer>
-                <p> Área de rodapé</p>
+                <h2><a href="https://github.com/totorourbem/AWS-Proz-FrontEnd-Project">Projeto-piloto para Curso Talento cloud/Proz/AWS!</a> 2024 &copy;</h2>
             </footer>
         </div> 
 

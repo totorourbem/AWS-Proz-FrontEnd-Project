@@ -83,19 +83,25 @@ body {
     background: var(--cinza1);
     display: flex;
     flex-direction: row;
+    font-size: 16px; /* Define o tamanho base */
 }
 
 h1 {
     color: var(--marinho1);
     font-family: 'Roboto Slab', serif;
+    font-size: 2.5em;
+    line-height: 1.6em;
 }
 h2 {
     color: var(--marinho1);
     font-family: 'Roboto Slab', serif;
+    font-size: 1.8em;
+    line-height: 1.4em;
 }
 p {
     color: var(--aço1);
     font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
 }
 a{
     color:var(--marinho2);
@@ -110,17 +116,17 @@ a:hover ::after {
 }
 /*Areá de menu do site*/
 
-#modal-menu-open {
+#burger-menu-open {
     background: var(--cinza2);
     width: 384px;
-    height: 1080px;
+    height: 100vh; /* 100% da altura da viewport */
     display: flex;
     flex-direction: column;
     align-items: center;
     position: fixed;
     left: 0;
 }
-#modal-menu-closed{
+#burger-menu-closed{
     background: var(--cinza2);
     width: 384px;
     display: flex;
@@ -129,12 +135,81 @@ a:hover ::after {
     position: fixed;
     left: -384px;
 }
+
+#modal-login-open {
+    background: rgba(0, 0, 0, 0.2); /* cor de fundo semi-transparente */
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+#modal-content {
+    color: var(--cinza1);
+    display: flex; /* Usando flexbox */
+    flex-direction: column; /* Alinhar elementos verticalmente */
+    justify-content: center; /* Alinhar verticalmente */
+    background: var(--aço3);
+    height: 50%;
+    max-height: 600px;;
+    width: 80%;
+    max-width: 800px; /* largura máxima do conteúdo */
+    border-radius: 15px; /* bordas arredondadas */
+    padding: 20px;
+    position: relative;
+    text-align: center;
+    font-size: 1.4em;
+    line-height: 1.8em;
+}
+
+#modal-content p {
+    color: var(--cinza1);
+}
+
+#close-modal {
+    background: var(--coral2);
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+#modal-login-close {
+    background: rgba(0, 0, 0, 0.2); /* cor de fundo semi-transparente */
+    width: 0%;
+    height: 0%;
+    position: fixed;
+    top: -2000px;
+    left: -2000px;
+}
+
+/* Estilos para o restante do conteúdo do modal (labels, inputs, etc.) */
+
+#modal-content form {
+    width: 50%; /* Porcentagem da largura do form */
+    max-width: 100%; /* Largura máxima do elemento */
+    margin: 1em;
+    padding: 1em;
+    font-size: 1em;
+    line-height: 1.8em;
+    text-align: center; /* Centraliza o texto */
+}
+
+#modal-content input {
+    height: 1.8em;
+}
+
 #search-area {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 384px;
-    height: 155px;
+    width: 100%;
+    height: 15%; /* Porcentagem da altura do modal-menu */
     background: var(--aço2);
 }
 #pesquisa{
@@ -144,42 +219,24 @@ a:hover ::after {
 nav{
     background: var(--cinza1);
     align-self: center;
+    margin: 5%;
+    width: 70%
+
 }
 nav ul{
-    margin-top: 20px;;
-    padding: 20px;
+    margin-top: 5%;;
+    padding: 5%;
 }
 
-/*Solução mais simples pro campo de pesquisa e placeholder*/
-
-#search-area label {
-    position: relative;
-    display: inline-block;
- }
- 
- .search-icon {
-    position: absolute;
-    left: 10px; /* ajuste conforme necessário */
-    top: 50%;
-    transform: translateY(-50%);
-}
- 
-.search-input {
-    padding-left: 40px; /* ajuste conforme necessário */
-}
-
-#pesquisa::placeholder {
-    font-family: 'Open Sans', sans-serif;
-  }
-/*Área do conteudo do site esse priemrio item par ajustá-lo conforme o menu*/
+/*Área do conteudo do site esse primeiro item par ajustá-lo conforme o menu*/
 #content-menu-open {
     margin-left: 384px;
+    height: 100vh; /* 100% da altura da viewport */
     width: 100%;
     display: flex;
     flex-direction: column;
 }  
 #content-menu-closed {
-    width: 100%;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -190,14 +247,18 @@ header {
     display: flex;
     justify-content: center ;
     align-items: center;
-    height: 30%;
+    height: 15%;
     width: 100%;
 }
- 
+
+span{
+    padding: 2%;
+}
+
 div#menu-button {
     display: flex;
     align-items: center;
-    height: 155px;
+    height: 15%; /* Porcentagem da altura do header */
     width: 10%;
     align-items: center;
 }
@@ -205,13 +266,13 @@ div#menu-button {
 div#logo {
     display: flex;
     align-items: center;
-    height: 155px;
-    width: 70%; 
+    height: 15%; /* Porcentagem da altura do header */
+    width: 60%; 
  }
  
 div#social-dock {
-    height: 155px;
-    width: 20%;
+    height: 15%; /* Porcentagem da altura do header */
+    width: 30%;
     display: flex;
     align-items: center;
     justify-content: right;
@@ -222,6 +283,11 @@ div#social-dock {
     height: 50px;
     margin: 2px;
     padding: 2px;
+    transition: filter 0.3s ease; /* Adiciona transição suave ao filtro */
+}
+
+.social-icon:hover {
+    filter: blur(1px) invert(50%); /* Aumenta a luminosidade para dar um efeito de cor */    
 }
 
 #context {
@@ -229,47 +295,102 @@ div#social-dock {
     align-items: center; 
     justify-content: center; 
     background-color: var(--cinza1);
-    padding: 20px; 
-    border: 10px;
+    padding: 1em; 
+    border: 0.5em;
     width: 80%;
 }
 #main-content {
-    padding: 20px; 
-    border: 10px;
+    padding: 2em; /* Usando medidas relativas */
+    border: 0.5em; /* Usando medidas relativas */;
     display: flex;
     flex-direction: row;
+    height: 100vh;
  }
 
 article {
-    width: 80%;
-    height: 80%;
+    width: 70%; /* Porcentagem da largura do main-content */
+    max-width: 100%; /* Porcentagem maxma do elementot */
+    height: 100%; /* Altura automática */
     text-align: justify;
+    margin-right: 2%;
+    line-height: 1.6em;
+    max-height: 600px; /* Defina a altura máxima desejada para a barra de rolagem */
+    overflow-y: auto; /* Habilita a barra de rolagem vertical quando necessário */
 }
+
+/* Estilos da scrollbar em navegadores Webkit (Chrome, Safari) */
+article::-webkit-scrollbar {
+    width: 24px; /* largura da scrollbar */
+  }
+  
+  article::-webkit-scrollbar-thumb {
+    background-color: var(--aço3) ;/* cor do 'ponteiro' da scrollbar */
+    border-radius: 12px; /* arredondamento do 'ponteiro' */
+  }
+  
+  article::-webkit-scrollbar-track {
+    background-color: var(--cinza2);/* cor da área de background da scrollbar */
+  }
+
+/* Estilos da scrollbar no Firefox */
+article {
+    scrollbar-width: thin; /* largura da scrollbar (thin, auto, none) */
+    scrollbar-color: var(--aço3) var(--cinza2); /* cor do 'ponteiro' e background da scrollbar */
+  }
+  
+  /* Seletor específico para o ponteiro da scrollbar */
+  article::-moz-scrollbar-thumb {
+    background-color:var(--aço3); /* cor do 'ponteiro' da scrollbar */
+  }
+  
+  /* Seletor específico para a área de background da scrollbar */
+  article::-moz-scrollbar-track {
+    background-color:  var(--cinza2); /* cor da área de background da scrollbar */
+  } 
 
 #ad {
     border: solid 2px var(--marine2);
-    width: 20%;
+    border-radius: 1em;
+    width: 28%; /* Porcentagem da largura do main-content */
     background-color: var(--branco); 
-    height: 80%;
+    height: 100%;
+    margin-left: 2%; /* Margem esquerda relativa ao main-content */
+   
 }
 
 footer {
-    padding: 20px; 
-    border: 10px;
-    width: 100%;
-    height: 20%;
+    padding: 2em; 
+    border: 1em;
+    width: 98%;
+    height: 10%;
     background-color: var(--coral2);
-    border-radius: 10px;
+    border-radius: 1em;
+}
+
+footer h2 {
+    color: var(--cinza1);
+}
+footer a {
+    color: var(--coral1);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+footer a:hover {
+    color: var(--cinza2);
 }
 
 /*Configurações espeçifocas para a página cadastre-se*/
 
 form {
-    padding: 5px;
+    padding: 1em;
 }
 
 .article-form {
-    width: 40%;
-    padding: 10px;
-    margin: 10px;
+    width: 50%; /* Porcentagem da largura do form */
+    max-width: 100%; /* Largura máxima do elemento */
+    margin: 1em;
+    padding: 1em;
+    font-size: 1em;
+    line-height: 1.8em;
+    text-align: center; /* Centraliza o texto */
 }

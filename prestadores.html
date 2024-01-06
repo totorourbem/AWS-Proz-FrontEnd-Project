@@ -10,7 +10,6 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto+Slab:wght@700&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" media="screen" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
-    <script src='main.js'></script>
     <script async src="https://cse.google.com/cse.js?cx=27a9e4d1557494c86">
     </script>
 </head>
@@ -61,9 +60,9 @@
 
         <div id = 'content-menu-open'>
             <header>
-                <div id='menu-button'>
-                    <img id="menusvg" src="./Images/bars-solid.svg" width="90px" height="90px" />
-                </div>
+              <div id='menu-button'>
+                <img src="./Images/bars-solid.svg" width="90px" height="90px" id="menubtn"/>
+              </div>
                 <div id='logo'>
                   <span>
                   <img src="./Images/Logo-bricks.svg" alt="Logo" height="80px">
@@ -78,14 +77,70 @@
                   <img src="./Images/x.svg" class='social-icon'/>
                   <img src="./Images/whatsapp.svg" class='social-icon'/>
                   <img src="./Images/linkedin.svg" class='social-icon'/>
-                  <img src="./Images/login.svg" class='social-icon'/>
+                  <img src="./Images/login.svg" class='social-icon' id="loginbtn"/>
                 </div>
                 <hr style="border: none; border-top: 1px solid #FF6B6B; color: #FF6B6B; background-color: #FF6B6B; height: 10px; width: auto">
             </header>
             <div id="main-content">
-              <article>
-            <h1>Conheça alguns de nosso prestadores, cadastrados nesse hub!</h1>
-            <table>
+              <article id="grid-prestadores">
+            <h2>Conheça alguns de nosso prestadores, cadastrados nesse hub!</h2>
+            <section id="nav-cards">
+              <label for="especialidade">Especialidade:</label>
+              <select id="especialidade" name="especialidade">
+                <option value="Acabamentos">Acabamentos</option>
+                <option value="Alvenaria e infraestrutura">Alvenaria e infraestrutura</option>
+                <option value="Carpintaria">Carpintaria</option>
+                <option value="Elétrica">Elétrica</option>
+                <option value="Hidráulica">Hidráulica</option>
+                <option value="Reparos">Pequenos Reparos</option>
+                <option value="Pintura">Pintura</option>
+              </select>
+              <input type="submit" value="submit">
+              <label for="ordenar">Ordenar por:</label>
+              <select id="ordenar" name="ordenar">
+                <option value="descendente">Melhores médias</option>
+                <option value="ascendente">Piores médias</option>
+              <input type="submit" value="submit">
+            </section>
+                <div id="grid-cards">
+                  <div class="card" id="card-no-0">
+                    <span class="card-avatar' id="card-avatar-no-0"><img src="./Assets/Colab1.jpg" alt="Avatar do colaborador" height="75%" width="75%""></span>
+                    <span class="card-info' id="card-info-no-0">
+                      <p><b>Nome:</b> Calebe Gonçalves</p> 
+                      <p><b>Especialidade:</b>Hidráulica</p>
+                      <p><b>Fone:</b>(43) 96847-8162 </p>
+                      <p><b>Media:</b> 3.15/5</p>
+                      </span>
+                  </div>
+                  <div class="card" id="card-no-1">
+                    <span class="card-avatar' id="card-avatar-no-1"><img src="./Assets/colab2.jpg" alt="Avatar do colaborador" height="75%" width="75%""></span>
+                    <span class="card-info' id="card-info-no-1">
+                      <p><b>Nome:</b> Daniela Fogaça</p> 
+                      <p><b>Especialidade:</b>Hidráulica</p>
+                      <p><b>Fone:</b>(43) 94875-8562 </p>
+                      <p><b>Media:</b> 2.98/5</p>
+                    </span>
+                  </div>
+                  <div class="card" id="card-no-3">
+                    <span class="card-avatar' id="card-avatar-no-3"><img src="./Assets/colab3.jpg" alt="Avatar do colaborador" height="75%" width="75%""></span>
+                    <span class="card-info' id="card-info-no-3">
+                      <p><b>Nome:</b> Ana Clara Fernandes</p> 
+                      <p><b>Especialidade:</b>Pintura</p>
+                      <p><b>Fone:</b>(43) 91978-7507 </p>
+                      <p><b>Media:</b> 3.28/5</p>
+                    </span>
+                  </div>
+                  <div class="card" id="card-no-4">
+                    <span class="card-avatar' id="card-avatar-no-4"><img src="./Assets/colab4.jpg" alt="Avatar do colaborador" height="75%" width="75%""></span>
+                    <span class="card-info' id="card-info-no-4">
+                      <p><b>Nome:</b> Vitor Santos</p> 
+                      <p><b>Especialidade:</b>Elétrica</p>
+                      <p><b>Fone:</b>(43) 93536-0966 </p>
+                      <p><b>Media:</b> 2.85/5</p>
+                    </span>
+                  </div>
+                </div>
+            <!-- <table>
                 <tr>
                   <th>Foto</th>
                   <th>Prestador</th>
@@ -162,7 +217,7 @@
                           </td>
                   </td>
                 </tr>
-              </table>
+              </table> -->
               </article>
             <div id='ad'>
                 <p>Area de anuncios</p>
@@ -173,5 +228,7 @@
             </footer>
         </div> 
 
+  <script src='main.js' defer></script>
+  <!-- <script src='dados.js' defer></script> -->
 </body>
 </html>

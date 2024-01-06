@@ -1,0 +1,31 @@
+"prestador_id","nome","email","fone","especialidade","avatar","nota_media"
+1,Ana Clara Fernandes,cardosomilena@gmail.com,43919787507,Pintura,./Assets/colab7.jpg,3.272727272727273
+2,Calebe Gonçalves,cauemelo@yahoo.com.br,43968478162,Hidráulica,./Assets/Colab1.jpg,3.142857142857143
+3,Cauê Lopes,ana-clarapinto@bol.com.br,43986714076,Pintura,./Assets/colab4.jpg,3
+4,Vitor Santos,ida-rocha@gmail.com,43935360966,Alvenaria e infraestrutra,./Assets/colab8.jpg,2.8461538461538463
+5,João Pedro Cavalcanti,silvamilena@gmail.com,43920072939,Hidráulica,./Assets/colab4.jpg,3
+6,Daniela Fogaça,pteixeira@uol.com.br,43967547892,Hidráulica,./Assets/colab6.jpg,2.9047619047619047
+7,Emanuelly Martins,joao-gabriel93@ig.com.br,43997771995,Elétrica,./Assets/colab7.jpg,3.5
+8,Maria Alice Rodrigues,rezendeemanuella@hotmail.com,43922632439,Pintura,./Assets/colab3.jpg,2.6153846153846154
+9,Amanda da Mata,fernandaoliveira@hotmail.com,43958880286,Carpintaria,./Assets/colab6.jpg,2.4
+10,Ana Clara Santos,dcardoso@ig.com.br,43957977364,Elétrica,./Assets/colab2.jpg,2.466666666666667
+11,Clarice da Mata,diasthiago@hotmail.com,43998258513,Pintura,./Assets/colab3.jpg,2.7222222222222223
+12,João Guilherme Ferreira,lcostela@bol.com.br,43929943810,Pequenos Reparos,./Assets/colab5.jpg,2.5833333333333335
+13,Bárbara da Mota,da-motaenzo@yahoo.com.br,43942325716,Hidráulica,./Assets/colab7.jpg,2.7857142857142856
+14,Melissa Alves,vporto@hotmail.com,43983546328,Pintura,./Assets/colab2.jpg,3.3333333333333335
+15,Fernando Monteiro,rafaelateixeira@uol.com.br,43915400462,Hidráulica,./Assets/Colab1.jpg,2.769230769230769
+16,Ana Beatriz Martins,felipe02@uol.com.br,43953059476,Pequenos Reparos,./Assets/colab6.jpg,2.875
+17,Davi Duarte,xbarros@ig.com.br,43928514369,Acabamentos,./Assets/colab4.jpg,2.909090909090909
+18,Alice da Conceição,sophie93@yahoo.com.br,43982106650,Alvenaria e infraestrutra,./Assets/colab7.jpg,2.6842105263157894
+19,Benício Cardoso,qmoraes@gmail.com,43941806626,Carpintaria,./Assets/colab5.jpg,3.2142857142857144
+20,Laura Teixeira,alicia92@gmail.com,43917017639,Hidráulica,./Assets/colab3.jpg,2.5454545454545454
+21,Ana Beatriz Silva,luiz-miguelbarbosa@gmail.com,43956940375,Acabamentos,./Assets/colab2.jpg,2.7058823529411766
+22,Luiz Henrique Fogaça,peixotoenzo-gabriel@gmail.com,43969266893,Acabamentos,./Assets/colab8.jpg,3.8461538461538463
+23,Laura Pinto,fernandesluiza@gmail.com,43976253973,Hidráulica,./Assets/colab3.jpg,2.727272727272727
+24,Enrico Almeida,camila00@uol.com.br,43911702064,Pintura,./Assets/Colab1.jpg,3
+25,Cecília Porto,beniciosales@bol.com.br,43964705161,Pequenos Reparos,./Assets/colab3.jpg,2.9
+26,Ana Alves,luiz-henriquerocha@ig.com.br,43927587663,Hidráulica,./Assets/colab2.jpg,2.8
+27,Henrique Moreira,marcelo61@ig.com.br,43920697847,Pequenos Reparos,./Assets/colab5.jpg,3.4444444444444446
+28,Thales Moraes,marianunes@bol.com.br,43921210255,Carpintaria,./Assets/Colab1.jpg,2.5
+29,Kevin das Neves,ysilva@yahoo.com.br,43917410210,Hidráulica,./Assets/colab4.jpg,3.3333333333333335
+30,Vinicius da Cruz,da-cruzelisa@uol.com.br,43942578854,Hidráulica,./Assets/colab8.jpg,2.8

@@ -33,8 +33,9 @@
  * **MENUS FINALIZADOS**, falta implementar JS;
  * **PADRONAGEM DAS CORES FINALIZADA**;
  * **menu modal tela de cadastro FINALIZADO**;
- * **login no site? ok** Falta JS;
+ * **login no site? ok** FAlta back-end;
  * **implementado pesquisa do google** Alterar apenas o local quando for debugar/hospedar;
+ * **JS ok**
  
 ## Estrutura CSS
 
@@ -42,9 +43,8 @@
 
 ## JavaScript
 
- * Dinamizar abertura/fechhamento de menu de login e do site;
- * Dinamizar a parte de apresetnação dos prestadores;
- * Dinamizar ofertas (caso de ruim com a APi do ML);
+ * Dinamizar a parte de apresetnação dos prestadores; - FALTA depende de backend
+ * Dinamizar ofertas (caso de ruim com a APi do ML); - FALTa depende de backend
  
 ## Conteúdo Site
 
@@ -52,6 +52,6 @@
  * ~Texto do index gerado pela Monica.Ai~ ok;
  * ~Esqueleto do formulário da página de cadastro~ ok;
  * ~Marretado botoes de login externos~ ok (não implementar por envolver muita coisa de backend);
- * Em ofertas foi marretado as ofertas do ML, aleatório (ver depois como fica em API)
+ * Em ofertas foi marretado as ofertas do ML, aleatório (envolve backend e hospedagem)
  * Em ofertas, crierar botão para link de folhetos de ofertas/comunidade no Whats para distribuição de fohetos
  * imagens dos prestadores ciradas com a Leonardo Ai, usando o prompt ""Describe a man/woman wearing a white safety helmet with reflective strip details. They are dressed in a navy-blue long-sleeved shirt with a fluorescent yellow safety vest on top. In their hands, this person holds a work tool such as a hammer or a wrench. Their eyes are focused on a blueprint or technical sketch held in the other hand. The face displays a serious and concentrated expression, indicating focus and determination in the task at hand. Surrounding them are stacked construction materials like bricks, wooden planks, or tools, suggesting an active and productive work environment." com a ferramnta "3D Animation Style"

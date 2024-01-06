@@ -1,0 +1,401 @@
+"avaliacao_id","avaliador_id","avaliado_id","nota_avaliacao","avaliacao_texto"
+1,6,20,5,Equipe altamente profissional! Cumpriram o prazo e o resultado da reforma da minha cozinha ficou incrível. Recomendo totalmente.
+2,182,2,3,Contratei-os para uma reforma de banheiro e fiquei muito satisfeito com o resultado final. Ótimo trabalho e atenção aos detalhes.
+3,136,21,4,"""Excelente serviço de construção! Desde o planejamento até a execução, tudo foi feito com cuidado e competência. Muito obrigado!"""
+4,103,28,4,Profissionais pontuais e qualificados. Transformaram minha área externa de forma surpreendente. Recomendo!
+5,129,21,1,A reforma do meu escritório foi concluída no prazo e com excelente qualidade. Equipe comprometida e eficiente.
+6,66,13,2,Contratei-os para uma pequena reforma em casa e fiquei impressionado com o profissionalismo e a dedicação da equipe. Recomendo de olhos fechados!
+7,37,18,1,Serviço de construção excepcional! A equipe foi além das expectativas e entregou um trabalho de alta qualidade dentro do prazo estipulado.
+8,154,1,3,Estou muito contente com a reforma da minha sala. Profissionais atenciosos e habilidosos. Recomendo a todos!
+9,159,3,4,Equipe extremamente competente na execução da reforma da minha varanda. Preço justo e resultado final incrível!
+10,127,5,2,Serviço de construção impecável! Profissionais qualificados e comprometidos. Superaram minhas expectativas.
+11,68,29,4,Contratei-os para uma reforma em casa e o resultado foi além do esperado. Profissionais dedicados e serviço de alta qualidade.
+12,19,13,1,A empresa demonstrou grande expertise na reforma do meu apartamento. Pontualidade e comprometimento foram marcas do serviço prestado.
+13,103,5,4,Profissionais responsáveis e capacitados. A reforma do meu escritório foi realizada com eficiência e qualidade.
+14,10,15,3,"""Recomendo fortemente! Equipe de construção comprometida e competente, entregaram o projeto de acordo com o planejado."""
+15,26,1,4,Estou muito satisfeito com a reforma do meu banheiro. Profissionais ágeis e cuidadosos. Ótimo trabalho!
+16,68,11,3,Serviço de construção excepcional! Profissionais dedicados que entregaram um projeto além das expectativas.
+17,87,3,2,A reforma da minha cozinha foi feita com rapidez e qualidade. Profissionais competentes e comprometidos com o resultado.
+18,181,8,2,Equipe de construção altamente profissional. A reforma da minha casa foi concluída com perfeição.
+19,152,17,5,Serviço de reforma de extrema qualidade! Profissionais comprometidos e atenciosos com os detalhes.
+20,169,10,2,"""Excelente serviço de construção! Pontuais, competentes e entregaram o projeto conforme acordado. Recomendo sem dúvidas!"""
+21,126,21,5,"""Embora tenham concluído a reforma da minha cozinha dentro do prazo, alguns detalhes ficaram negligenciados. Precisam melhorar a atenção aos acabamentos."""
+22,68,28,1,"""O serviço de construção foi satisfatório, mas a comunicação durante o processo poderia ter sido mais clara. Sugiro mais transparência nas etapas do projeto."""
+23,122,22,4,"""A equipe foi pontual na reforma do meu banheiro, porém houve dificuldades na resolução de problemas imprevistos. Maior agilidade nas soluções seria benéfica."""
+24,143,17,2,"""Contratei-os para um projeto de construção. Embora o resultado final tenha sido bom, houve atrasos na entrega. Melhorias no cumprimento dos prazos são necessárias."""
+25,143,27,4,"""A reforma do meu escritório teve um bom acabamento, mas houve desafios na coordenação entre os profissionais envolvidos. Sugiro melhor organização entre as equipes."""
+26,83,10,2,"""O serviço de construção foi satisfatório, porém, a falta de sugestões criativas para otimização do espaço foi notável. Mais proatividade seria interessante."""
+27,161,9,2,"""Pontualidade foi um ponto forte na reforma da minha casa, porém, a limpeza pós-obra deixou a desejar. Sugiro mais atenção nesse aspecto para uma melhor experiência."""
+28,77,14,5,"""Apesar do bom serviço na reforma da área externa, a comunicação sobre mudanças no projeto foi pouco eficiente. Melhor articulação entre cliente e equipe seria vantajosa."""
+29,57,25,3,"""A reforma da minha varanda teve um resultado satisfatório, mas a falta de comprometimento com prazos foi um problema. Maior responsabilidade na gestão do tempo é crucial."""
+30,54,25,5,"""Houve um bom esforço na execução da construção, mas a falta de supervisão levou a alguns erros na fase inicial. Sugiro mais controle de qualidade desde o início do projeto."""
+31,185,18,4,"""A equipe foi atenciosa na reforma do meu apartamento, no entanto, a falta de cuidado na proteção de áreas adjacentes durante a obra foi notável. Maior zelo é necessário."""
+32,62,13,4,"""Contratei-os para uma reforma em casa. Apesar da qualidade do serviço, houve falta de transparência em relação aos materiais utilizados. Maior clareza seria positiva."""
+33,56,27,4,"""O serviço de construção atendeu às expectativas, mas a ausência de um plano de contingência para imprevistos prejudicou o andamento do projeto. Melhor preparação é necessária."""
+34,92,6,1,"""A equipe foi competente na reforma do meu escritório, no entanto, houve dificuldades na comunicação sobre alterações no projeto. Melhorias na comunicação são essenciais."""
+35,83,10,4,"""A reforma do meu banheiro teve um bom resultado final, porém, a falta de acompanhamento regular do progresso gerou incertezas. Recomendo maior feedback ao cliente."""
+36,29,6,5,"""Embora tenham entregado a construção no prazo, houve problemas com a qualidade de alguns materiais utilizados. Sugiro maior atenção à seleção de materiais de melhor qualidade."""
+37,32,15,4,"""A equipe foi comprometida na reforma da minha cozinha, mas alguns detalhes de acabamento foram negligenciados. Melhor atenção aos detalhes é fundamental."""
+38,150,14,4,"""O serviço de construção foi satisfatório, porém, houve falta de cuidado na proteção de áreas adjacentes durante a obra. Maior zelo com o ambiente é necessário."""
+39,97,11,4,"""Apesar do resultado final da reforma ter sido positivo, a falta de flexibilidade para ajustes no projeto foi um obstáculo. Sugiro maior adaptabilidade"""
+40,115,21,3,"""Embora tenham concluído a reforma da minha cozinha dentro do prazo, alguns detalhes ficaram negligenciados. Precisam melhorar a atenção aos acabamentos."""
+41,161,19,5,"""O serviço de construção foi satisfatório, mas a comunicação durante o processo poderia ter sido mais clara. Sugiro mais transparência nas etapas do projeto."""
+42,65,17,2,"""A equipe foi pontual na reforma do meu banheiro, porém houve dificuldades na resolução de problemas imprevistos. Maior agilidade nas soluções seria benéfica."""
+43,183,4,2,"""Contratei-os para um projeto de construção. Embora o resultado final tenha sido bom, houve atrasos na entrega. Melhorias no cumprimento dos prazos são necessárias."""
+44,12,1,5,"""A reforma do meu escritório teve um bom acabamento, mas houve desafios na coordenação entre os profissionais envolvidos. Sugiro melhor organização entre as equipes."""
+45,127,23,1,"""O serviço de construção foi satisfatório, mas houve divergências no orçamento inicial e final. Recomendo mais clareza nos custos extras durante o projeto."""
+46,118,1,5,"""Pontualidade foi um ponto forte na reforma da minha casa, porém, a limpeza pós-obra deixou a desejar. Sugiro mais atenção nesse aspecto para uma melhor experiência."""
+47,179,18,3,Equipe de construção altamente profissional. A reforma da minha casa foi concluída com perfeição.
+48,152,12,3,Serviço de reforma de extrema qualidade! Profissionais comprometidos e atenciosos com os detalhes.
+49,111,2,4,"""Excelente serviço de construção! Pontuais, competentes e entregaram o projeto conforme acordado. Recomendo sem dúvidas!"""
+50,135,14,1,"""A equipe foi pontual e comprometida na reforma do meu banheiro, porém, seria vantajoso oferecer opções mais sustentáveis de materiais para escolha dos clientes, alinhando-se às tendências ambientais."""
+51,122,19,1,"""O serviço de construção foi bem executado, no entanto, seria benéfico ter mais disponibilidade para reuniões intermediárias durante o projeto, para alinhar expectativas e ajustar detalhes conforme necessário."""
+52,102,25,1,"""A reforma da minha cozinha teve um ótimo resultado, mas seria interessante oferecer um portfólio mais diversificado de designs e estilos para inspirar os clientes na concepção do projeto."""
+53,30,11,5,"""Embora a equipe tenha sido atenciosa durante a construção, seria útil ter um sistema de comunicação mais eficiente para que o cliente possa acompanhar o progresso em tempo real, garantindo maior transparência."""
+54,152,10,4,"""O serviço prestado na reforma do meu escritório foi de qualidade, porém, seria valioso oferecer pacotes ou descontos para projetos maiores, incentivando os clientes a realizarem mais melhorias de uma vez."""
+55,156,25,3,"""Houve dedicação na construção, mas seria útil oferecer um serviço pós-obra, como um manual de manutenção ou garantia estendida, para garantir a durabilidade do trabalho realizado."""
+56,40,29,3,"""A equipe foi diligente na reforma da minha casa, no entanto, seria interessante oferecer opções de financiamento ou parcelamento, tornando o serviço mais acessível a diferentes perfis de clientes."""
+57,179,26,1,"""Apesar da qualidade do serviço, seria valioso disponibilizar um canal de feedback estruturado para os clientes expressarem suas necessidades e sugestões durante o processo de reforma."""
+58,52,23,3,"""O resultado da construção foi satisfatório, porém, seria benéfico oferecer um serviço de consultoria adicional para otimização de espaços, agregando ainda mais valor ao projeto."""
+59,41,27,5,"""A equipe foi comprometida na reforma do meu banheiro, mas seria vantajoso ter um acompanhamento pós-obra para garantir que todos os detalhes foram finalizados conforme acordado."""
+60,130,29,5,"""Apesar da qualidade do serviço, seria valioso disponibilizar um canal de feedback estruturado para os clientes expressarem suas necessidades e sugestões durante o processo de reforma."""
+61,39,13,3,"""O resultado da construção foi satisfatório, porém, seria benéfico oferecer um serviço de consultoria adicional para otimização de espaços, agregando ainda mais valor ao projeto."""
+62,19,12,3,"""A equipe foi comprometida na reforma do meu banheiro, mas seria vantajoso ter um acompanhamento pós-obra para garantir que todos os detalhes foram finalizados conforme acordado."""
+63,149,2,2,"""Embora a comunicação tenha sido clara, seria útil oferecer um serviço de assistência técnica por um período após a conclusão da reforma, para resolver eventuais problemas que possam surgir."""
+64,20,26,5,"""A qualidade do serviço foi boa, no entanto, seria valioso disponibilizar um catálogo mais amplo de fornecedores de materiais para dar mais opções aos clientes na escolha dos materiais."""
+65,197,27,2,"""Apesar da eficiência na execução, seria interessante oferecer um serviço de gerenciamento de resíduos mais robusto, visando a sustentabilidade e o descarte responsável dos materiais utilizados."""
+66,169,11,1,"""A equipe foi prestativa na reforma da minha cozinha, mas seria útil oferecer um programa de fidelidade ou indicação para clientes frequentes, incentivando sua fidelização."""
+67,161,22,5,"""Embora tenham entregado dentro do prazo, seria vantajoso disponibilizar um serviço de prévia virtual do projeto, utilizando tecnologias de realidade aumentada para visualização mais precisa."""
+68,74,21,1,"""A atenção aos detalhes foi boa, mas seria valioso oferecer um serviço de consultoria em decoração após a conclusão da reforma, para ajudar os clientes na ambientação do espaço."""
+69,110,4,3,"""Apesar da organização, seria interessante oferecer um serviço de garantia estendida para os materiais utilizados, assegurando aos clientes uma maior tranquilidade após a conclusão da obra."""
+70,35,26,1,"""A equipe foi comprometida na reforma do meu escritório, mas seria benéfico ter um sistema de gestão online, onde os clientes pudessem acompanhar o progresso e fazer comentários em tempo real."""
+71,116,18,3,"""Apesar da limpeza final, seria útil oferecer um serviço de manutenção preventiva para as instalações, ajudando os clientes a prolongarem a vida útil dos novos elementos da reforma."""
+72,90,19,1,"""A comunicação foi clara, mas seria valioso oferecer um serviço de atendimento pós-obra com um canal exclusivo para dúvidas ou emergências que possam surgir após a conclusão do projeto."""
+73,45,9,2,Equipe altamente profissional! Cumpriram o prazo e o resultado da reforma da minha cozinha ficou incrível. Recomendo totalmente.
+74,57,4,4,Contratei-os para uma reforma de banheiro e fiquei muito satisfeito com o resultado final. Ótimo trabalho e atenção aos detalhes.
+75,181,24,5,"""Excelente serviço de construção! Desde o planejamento até a execução, tudo foi feito com cuidado e competência. Muito obrigado!"""
+76,123,2,2,Profissionais pontuais e qualificados. Transformaram minha área externa de forma surpreendente. Recomendo!
+77,97,5,3,A reforma do meu escritório foi concluída no prazo e com excelente qualidade. Equipe comprometida e eficiente.
+78,105,6,2,Contratei-os para uma pequena reforma em casa e fiquei impressionado com o profissionalismo e a dedicação da equipe. Recomendo de olhos fechados!
+79,142,19,3,Serviço de construção excepcional! A equipe foi além das expectativas e entregou um trabalho de alta qualidade dentro do prazo estipulado.
+80,192,13,2,Estou muito contente com a reforma da minha sala. Profissionais atenciosos e habilidosos. Recomendo a todos!
+81,137,26,3,Equipe extremamente competente na execução da reforma da minha varanda. Preço justo e resultado final incrível!
+82,92,6,5,Serviço de construção impecável! Profissionais qualificados e comprometidos. Superaram minhas expectativas.
+83,198,25,3,Contratei-os para uma reforma em casa e o resultado foi além do esperado. Profissionais dedicados e serviço de alta qualidade.
+84,155,23,4,A empresa demonstrou grande expertise na reforma do meu apartamento. Pontualidade e comprometimento foram marcas do serviço prestado.
+85,26,12,2,Profissionais responsáveis e capacitados. A reforma do meu escritório foi realizada com eficiência e qualidade.
+86,167,2,2,"""Recomendo fortemente! Equipe de construção comprometida e competente, entregaram o projeto de acordo com o planejado."""
+87,14,14,1,Estou muito satisfeito com a reforma do meu banheiro. Profissionais ágeis e cuidadosos. Ótimo trabalho!
+88,102,17,4,Serviço de construção excepcional! Profissionais dedicados que entregaram um projeto além das expectativas.
+89,166,11,1,A reforma da minha cozinha foi feita com rapidez e qualidade. Profissionais competentes e comprometidos com o resultado.
+90,65,11,1,Equipe de construção altamente profissional. A reforma da minha casa foi concluída com perfeição.
+91,149,21,5,Serviço de reforma de extrema qualidade! Profissionais comprometidos e atenciosos com os detalhes.
+92,63,6,1,"""Excelente serviço de construção! Pontuais, competentes e entregaram o projeto conforme acordado. Recomendo sem dúvidas!"""
+93,132,21,2,"""Embora tenham concluído a reforma da minha cozinha dentro do prazo, alguns detalhes ficaram negligenciados. Precisam melhorar a atenção aos acabamentos."""
+94,143,3,5,"""O serviço de construção foi satisfatório, mas a comunicação durante o processo poderia ter sido mais clara. Sugiro mais transparência nas etapas do projeto."""
+95,123,4,3,"""A equipe foi pontual na reforma do meu banheiro, porém houve dificuldades na resolução de problemas imprevistos. Maior agilidade nas soluções seria benéfica."""
+96,183,10,4,"""Contratei-os para um projeto de construção. Embora o resultado final tenha sido bom, houve atrasos na entrega. Melhorias no cumprimento dos prazos são necessárias."""
+97,51,23,5,"""A reforma do meu escritório teve um bom acabamento, mas houve desafios na coordenação entre os profissionais envolvidos. Sugiro melhor organização entre as equipes."""
+98,131,16,2,"""Pontualidade foi um ponto forte na reforma da minha casa, porém, a limpeza pós-obra deixou a desejar. Sugiro mais atenção nesse aspecto para uma melhor experiência."""
+99,32,2,2,"""Apesar do bom serviço na reforma da área externa, a comunicação sobre mudanças no projeto foi pouco eficiente. Melhor articulação entre cliente e equipe seria vantajosa."""
+100,91,18,1,"""A reforma da minha varanda teve um resultado satisfatório, mas a falta de comprometimento com prazos foi um problema. Maior responsabilidade na gestão do tempo é crucial."""
+101,169,28,5,"""Houve um bom esforço na execução da construção, mas a falta de supervisão levou a alguns erros na fase inicial. Sugiro mais controle de qualidade desde o início do projeto."""
+102,94,1,3,"""A equipe foi atenciosa na reforma do meu apartamento, no entanto, a falta de sugestões criativas para otimização do espaço foi notável. Mais proatividade seria interessante."""
+103,196,6,2,"""Contratei-os para uma reforma em casa. Apesar da qualidade do serviço, houve falta de transparência em relação aos materiais utilizados. Maior clareza seria positiva."""
+104,94,10,2,"""O serviço de construção atendeu às expectativas, mas a ausência de um plano de contingência para imprevistos prejudicou o andamento do projeto. Melhor preparação é necessária."""
+105,84,26,3,"""A equipe foi competente na reforma do meu escritório, no entanto, houve dificuldades na comunicação sobre alterações no projeto. Melhorias na comunicação são essenciais."""
+106,125,29,3,"""Recomendo fortemente! Equipe de construção comprometida e competente, entregaram o projeto de acordo com o planejado."""
+107,135,15,4,Estou muito satisfeito com a reforma do meu banheiro. Profissionais ágeis e cuidadosos. Ótimo trabalho!
+108,51,11,3,Serviço de construção excepcional! Profissionais dedicados que entregaram um projeto além das expectativas.
+109,112,6,4,A reforma da minha cozinha foi feita com rapidez e qualidade. Profissionais competentes e comprometidos com o resultado.
+110,12,25,3,Equipe altamente profissional! Cumpriram o prazo e o resultado da reforma da minha cozinha ficou incrível. Recomendo totalmente.
+111,156,20,3,Contratei-os para uma reforma de banheiro e fiquei muito satisfeito com o resultado final. Ótimo trabalho e atenção aos detalhes.
+112,179,18,1,"""Excelente serviço de construção! Desde o planejamento até a execução, tudo foi feito com cuidado e competência. Muito obrigado!"""
+113,14,16,5,Profissionais pontuais e qualificados. Transformaram minha área externa de forma surpreendente. Recomendo!
+114,19,27,2,A reforma do meu escritório foi concluída no prazo e com excelente qualidade. Equipe comprometida e eficiente.
+115,91,12,1,Contratei-os para uma pequena reforma em casa e fiquei impressionado com o profissionalismo e a dedicação da equipe. Recomendo de olhos fechados!
+116,186,14,2,Serviço de construção excepcional! A equipe foi além das expectativas e entregou um trabalho de alta qualidade dentro do prazo estipulado.
+117,163,14,5,Estou muito contente com a reforma da minha sala. Profissionais atenciosos e habilidosos. Recomendo a todos!
+118,194,16,4,Equipe extremamente competente na execução da reforma da minha varanda. Preço justo e resultado final incrível!
+119,2,4,4,Serviço de construção impecável! Profissionais qualificados e comprometidos. Superaram minhas expectativas.
+120,84,16,1,Contratei-os para uma reforma em casa e o resultado foi além do esperado. Profissionais dedicados e serviço de alta qualidade.
+121,97,10,5,A empresa demonstrou grande expertise na reforma do meu apartamento. Pontualidade e comprometimento foram marcas do serviço prestado.
+122,114,4,1,Profissionais responsáveis e capacitados. A reforma do meu escritório foi realizada com eficiência e qualidade.
+123,144,30,5,"""Recomendo fortemente! Equipe de construção comprometida e competente, entregaram o projeto de acordo com o planejado."""
+124,146,14,1,Estou muito satisfeito com a reforma do meu banheiro. Profissionais ágeis e cuidadosos. Ótimo trabalho!
+125,50,2,2,Serviço de construção excepcional! Profissionais dedicados que entregaram um projeto além das expectativas.
+126,78,11,4,A reforma da minha cozinha foi feita com rapidez e qualidade. Profissionais competentes e comprometidos com o resultado.
+127,7,8,3,Equipe de construção altamente profissional. A reforma da minha casa foi concluída com perfeição.
+128,31,22,1,Serviço de reforma de extrema qualidade! Profissionais comprometidos e atenciosos com os detalhes.
+129,198,13,5,"""Excelente serviço de construção! Pontuais, competentes e entregaram o projeto conforme acordado. Recomendo sem dúvidas!"""
+130,125,2,4,"""Embora tenham concluído a reforma da minha cozinha dentro do prazo, alguns detalhes ficaram negligenciados. Precisam melhorar a atenção aos acabamentos."""
+131,67,7,3,"""O serviço de construção foi satisfatório, mas a comunicação durante o processo poderia ter sido mais clara. Sugiro mais transparência nas etapas do projeto."""
+132,21,24,4,"""A equipe foi pontual na reforma do meu banheiro, porém houve dificuldades na resolução de problemas imprevistos. Maior agilidade nas soluções seria benéfica."""
+133,158,10,2,"""Contratei-os para um projeto de construção. Embora o resultado final tenha sido bom, houve atrasos na entrega. Melhorias no cumprimento dos prazos são necessárias."""
+134,82,18,2,"""A reforma do meu escritório teve um bom acabamento, mas houve desafios na coordenação entre os profissionais envolvidos. Sugiro melhor organização entre as equipes."""
+135,191,20,1,"""O serviço de construção foi satisfatório, porém, a falta de sugestões criativas para otimização do espaço foi notável. Mais proatividade seria interessante."""
+136,96,1,2,"""Pontualidade foi um ponto forte na reforma da minha casa, porém, a limpeza pós-obra deixou a desejar. Sugiro mais atenção nesse aspecto para uma melhor experiência."""
+137,129,9,4,"""Apesar do bom serviço na reforma da área externa, a comunicação sobre mudanças no projeto foi pouco eficiente. Melhor articulação entre cliente e equipe seria vantajosa."""
+138,72,18,5,"""A reforma da minha varanda teve um resultado satisfatório, mas a falta de comprometimento com prazos foi um problema. Maior responsabilidade na gestão do tempo é crucial."""
+139,134,14,5,"""Houve um bom esforço na execução da construção, mas a falta de supervisão levou a alguns erros na fase inicial. Sugiro mais controle de qualidade desde o início do projeto."""
+140,8,9,5,"""A equipe foi atenciosa na reforma do meu apartamento, no entanto, a falta de cuidado na proteção de áreas adjacentes durante a obra foi notável. Maior zelo é necessário."""
+141,43,6,2,"""Contratei-os para uma reforma em casa. Apesar da qualidade do serviço, houve falta de transparência em relação aos materiais utilizados. Maior clareza seria positiva."""
+142,10,4,5,"""O serviço de construção atendeu às expectativas, mas a ausência de um plano de contingência para imprevistos prejudicou o andamento do projeto. Melhor preparação é necessária."""
+143,93,20,3,"""A equipe foi competente na reforma do meu escritório, no entanto, houve dificuldades na comunicação sobre alterações no projeto. Melhorias na comunicação são essenciais."""
+144,155,10,1,"""A reforma do meu banheiro teve um bom resultado final, porém, a falta de acompanhamento regular do progresso gerou incertezas. Recomendo maior feedback ao cliente."""
+145,23,13,3,"""Embora tenham entregado a construção no prazo, houve problemas com a qualidade de alguns materiais utilizados. Sugiro maior atenção à seleção de materiais de melhor qualidade."""
+146,103,16,2,"""A equipe foi comprometida na reforma da minha cozinha, mas alguns detalhes de acabamento foram negligenciados. Melhor atenção aos detalhes é fundamental."""
+147,27,29,4,"""O serviço de construção foi satisfatório, porém, houve falta de cuidado na proteção de áreas adjacentes durante a obra. Maior zelo com o ambiente é necessário."""
+148,67,4,5,"""Apesar do resultado final da reforma ter sido positivo, a falta de flexibilidade para ajustes no projeto foi um obstáculo. Sugiro maior adaptabilidade"""
+149,124,29,2,"""Embora tenham concluído a reforma da minha cozinha dentro do prazo, alguns detalhes ficaram negligenciados. Precisam melhorar a atenção aos acabamentos."""
+150,123,30,4,"""O serviço de construção foi satisfatório, mas a comunicação durante o processo poderia ter sido mais clara. Sugiro mais transparência nas etapas do projeto."""
+151,156,9,1,"""A equipe foi pontual na reforma do meu banheiro, porém houve dificuldades na resolução de problemas imprevistos. Maior agilidade nas soluções seria benéfica."""
+152,134,12,2,"""Contratei-os para um projeto de construção. Embora o resultado final tenha sido bom, houve atrasos na entrega. Melhorias no cumprimento dos prazos são necessárias."""
+153,186,6,2,"""A reforma do meu escritório teve um bom acabamento, mas houve desafios na coordenação entre os profissionais envolvidos. Sugiro melhor organização entre as equipes."""
+154,164,25,1,"""O serviço de construção foi satisfatório, mas houve divergências no orçamento inicial e final. Recomendo mais clareza nos custos extras durante o projeto."""
+155,179,5,2,"""Pontualidade foi um ponto forte na reforma da minha casa, porém, a limpeza pós-obra deixou a desejar. Sugiro mais atenção nesse aspecto para uma melhor experiência."""
+156,191,26,1,Equipe de construção altamente profissional. A reforma da minha casa foi concluída com perfeição.
+157,18,22,5,Serviço de reforma de extrema qualidade! Profissionais comprometidos e atenciosos com os detalhes.
+158,148,2,4,"""Excelente serviço de construção! Pontuais, competentes e entregaram o projeto conforme acordado. Recomendo sem dúvidas!"""
+159,34,19,2,"""A equipe foi pontual e comprometida na reforma do meu banheiro, porém, seria vantajoso oferecer opções mais sustentáveis de materiais para escolha dos clientes, alinhando-se às tendências ambientais."""
+160,15,26,5,"""O serviço de construção foi bem executado, no entanto, seria benéfico ter mais disponibilidade para reuniões intermediárias durante o projeto, para alinhar expectativas e ajustar detalhes conforme necessário."""
+161,22,25,4,"""A reforma da minha cozinha teve um ótimo resultado, mas seria interessante oferecer um portfólio mais diversificado de designs e estilos para inspirar os clientes na concepção do projeto."""
+162,39,12,3,"""Embora a equipe tenha sido atenciosa durante a construção, seria útil ter um sistema de comunicação mais eficiente para que o cliente possa acompanhar o progresso em tempo real, garantindo maior transparência."""
+163,163,22,2,"""O serviço prestado na reforma do meu escritório foi de qualidade, porém, seria valioso oferecer pacotes ou descontos para projetos maiores, incentivando os clientes a realizarem mais melhorias de uma vez."""
+164,19,8,1,"""Houve dedicação na construção, mas seria útil oferecer um serviço pós-obra, como um manual de manutenção ou garantia estendida, para garantir a durabilidade do trabalho realizado."""
+165,190,26,1,"""A equipe foi diligente na reforma da minha casa, no entanto, seria interessante oferecer opções de financiamento ou parcelamento, tornando o serviço mais acessível a diferentes perfis de clientes."""
+166,75,22,2,"""Apesar da qualidade do serviço, seria valioso disponibilizar um canal de feedback estruturado para os clientes expressarem suas necessidades e sugestões durante o processo de reforma."""
+167,38,16,4,"""O resultado da construção foi satisfatório, porém, seria benéfico oferecer um serviço de consultoria adicional para otimização de espaços, agregando ainda mais valor ao projeto."""
+168,150,19,5,"""A equipe foi comprometida na reforma do meu banheiro, mas seria vantajoso ter um acompanhamento pós-obra para garantir que todos os detalhes foram finalizados conforme acordado."""
+169,60,13,5,"""Apesar da qualidade do serviço, seria valioso disponibilizar um canal de feedback estruturado para os clientes expressarem suas necessidades e sugestões durante o processo de reforma."""
+170,71,27,2,"""O resultado da construção foi satisfatório, porém, seria benéfico oferecer um serviço de consultoria adicional para otimização de espaços, agregando ainda mais valor ao projeto."""
+171,190,27,5,"""A equipe foi comprometida na reforma do meu banheiro, mas seria vantajoso ter um acompanhamento pós-obra para garantir que todos os detalhes foram finalizados conforme acordado."""
+172,164,4,2,"""Embora a comunicação tenha sido clara, seria útil oferecer um serviço de assistência técnica por um período após a conclusão da reforma, para resolver eventuais problemas que possam surgir."""
+173,107,11,1,"""A qualidade do serviço foi boa, no entanto, seria valioso disponibilizar um catálogo mais amplo de fornecedores de materiais para dar mais opções aos clientes na escolha dos materiais."""
+174,78,6,4,"""Apesar da eficiência na execução, seria interessante oferecer um serviço de gerenciamento de resíduos mais robusto, visando a sustentabilidade e o descarte responsável dos materiais utilizados."""
+175,117,3,1,"""A equipe foi prestativa na reforma da minha cozinha, mas seria útil oferecer um programa de fidelidade ou indicação para clientes frequentes, incentivando sua fidelização."""
+176,144,6,1,"""Embora tenham entregado dentro do prazo, seria vantajoso disponibilizar um serviço de prévia virtual do projeto, utilizando tecnologias de realidade aumentada para visualização mais precisa."""
+177,2,26,3,"""A atenção aos detalhes foi boa, mas seria valioso oferecer um serviço de consultoria em decoração após a conclusão da reforma, para ajudar os clientes na ambientação do espaço."""
+178,113,8,4,"""Apesar da organização, seria interessante oferecer um serviço de garantia estendida para os materiais utilizados, assegurando aos clientes uma maior tranquilidade após a conclusão da obra."""
+179,101,15,2,"""A equipe foi comprometida na reforma do meu escritório, mas seria benéfico ter um sistema de gestão online, onde os clientes pudessem acompanhar o progresso e fazer comentários em tempo real."""
+180,60,4,1,"""Apesar da limpeza final, seria útil oferecer um serviço de manutenção preventiva para as instalações, ajudando os clientes a prolongarem a vida útil dos novos elementos da reforma."""
+181,99,1,4,"""A comunicação foi clara, mas seria valioso oferecer um serviço de atendimento pós-obra com um canal exclusivo para dúvidas ou emergências que possam surgir após a conclusão do projeto."""
+182,80,21,1,Equipe altamente profissional! Cumpriram o prazo e o resultado da reforma da minha cozinha ficou incrível. Recomendo totalmente.
+183,111,30,4,Contratei-os para uma reforma de banheiro e fiquei muito satisfeito com o resultado final. Ótimo trabalho e atenção aos detalhes.
+184,114,8,3,"""Excelente serviço de construção! Desde o planejamento até a execução, tudo foi feito com cuidado e competência. Muito obrigado!"""
+185,6,29,1,Profissionais pontuais e qualificados. Transformaram minha área externa de forma surpreendente. Recomendo!
+186,59,29,4,A reforma do meu escritório foi concluída no prazo e com excelente qualidade. Equipe comprometida e eficiente.
+187,134,17,3,Contratei-os para uma pequena reforma em casa e fiquei impressionado com o profissionalismo e a dedicação da equipe. Recomendo de olhos fechados!
+188,93,24,2,Serviço de construção excepcional! A equipe foi além das expectativas e entregou um trabalho de alta qualidade dentro do prazo estipulado.
+189,199,22,5,Estou muito contente com a reforma da minha sala. Profissionais atenciosos e habilidosos. Recomendo a todos!
+190,161,15,2,Equipe extremamente competente na execução da reforma da minha varanda. Preço justo e resultado final incrível!
+191,25,3,2,Serviço de construção impecável! Profissionais qualificados e comprometidos. Superaram minhas expectativas.
+192,118,25,1,Contratei-os para uma reforma em casa e o resultado foi além do esperado. Profissionais dedicados e serviço de alta qualidade.
+193,171,2,4,A empresa demonstrou grande expertise na reforma do meu apartamento. Pontualidade e comprometimento foram marcas do serviço prestado.
+194,54,30,1,Profissionais responsáveis e capacitados. A reforma do meu escritório foi realizada com eficiência e qualidade.
+195,104,23,4,"""Recomendo fortemente! Equipe de construção comprometida e competente, entregaram o projeto de acordo com o planejado."""
+196,46,14,5,Estou muito satisfeito com a reforma do meu banheiro. Profissionais ágeis e cuidadosos. Ótimo trabalho!
+197,90,29,3,Serviço de construção excepcional! Profissionais dedicados que entregaram um projeto além das expectativas.
+198,166,2,4,A reforma da minha cozinha foi feita com rapidez e qualidade. Profissionais competentes e comprometidos com o resultado.
+199,39,8,1,Equipe de construção altamente profissional. A reforma da minha casa foi concluída com perfeição.
+200,171,8,3,Serviço de reforma de extrema qualidade! Profissionais comprometidos e atenciosos com os detalhes.
+201,91,16,2,"""Excelente serviço de construção! Pontuais, competentes e entregaram o projeto conforme acordado. Recomendo sem dúvidas!"""
+202,92,12,5,"""Embora tenham concluído a reforma da minha cozinha dentro do prazo, alguns detalhes ficaram negligenciados. Precisam melhorar a atenção aos acabamentos."""
+203,177,28,1,"""O serviço de construção foi satisfatório, mas a comunicação durante o processo poderia ter sido mais clara. Sugiro mais transparência nas etapas do projeto."""
+204,135,7,4,"""A equipe foi pontual na reforma do meu banheiro, porém houve dificuldades na resolução de problemas imprevistos. Maior agilidade nas soluções seria benéfica."""
+205,135,30,4,"""Contratei-os para um projeto de construção. Embora o resultado final tenha sido bom, houve atrasos na entrega. Melhorias no cumprimento dos prazos são necessárias."""
+206,121,27,3,"""A reforma do meu escritório teve um bom acabamento, mas houve desafios na coordenação entre os profissionais envolvidos. Sugiro melhor organização entre as equipes."""
+207,114,8,4,"""Pontualidade foi um ponto forte na reforma da minha casa, porém, a limpeza pós-obra deixou a desejar. Sugiro mais atenção nesse aspecto para uma melhor experiência."""
+208,107,12,5,"""Apesar do bom serviço na reforma da área externa, a comunicação sobre mudanças no projeto foi pouco eficiente. Melhor articulação entre cliente e equipe seria vantajosa."""
+209,141,19,2,"""A reforma da minha varanda teve um resultado satisfatório, mas a falta de comprometimento com prazos foi um problema. Maior responsabilidade na gestão do tempo é crucial."""
+210,142,28,5,"""Houve um bom esforço na execução da construção, mas a falta de supervisão levou a alguns erros na fase inicial. Sugiro mais controle de qualidade desde o início do projeto."""
+211,147,16,3,"""A equipe foi atenciosa na reforma do meu apartamento, no entanto, a falta de sugestões criativas para otimização do espaço foi notável. Mais proatividade seria interessante."""
+212,40,27,5,"""Contratei-os para uma reforma em casa. Apesar da qualidade do serviço, houve falta de transparência em relação aos materiais utilizados. Maior clareza seria positiva."""
+213,36,10,1,"""O serviço de construção atendeu às expectativas, mas a ausência de um plano de contingência para imprevistos prejudicou o andamento do projeto. Melhor preparação é necessária."""
+214,26,24,3,"""A equipe foi competente na reforma do meu escritório, no entanto, houve dificuldades na comunicação sobre alterações no projeto. Melhorias na comunicação são essenciais."""
+215,5,17,5,"""Recomendo fortemente! Equipe de construção comprometida e competente, entregaram o projeto de acordo com o planejado."""
+216,114,24,1,Estou muito satisfeito com a reforma do meu banheiro. Profissionais ágeis e cuidadosos. Ótimo trabalho!
+217,110,11,4,Serviço de construção excepcional! Profissionais dedicados que entregaram um projeto além das expectativas.
+218,77,26,5,A reforma da minha cozinha foi feita com rapidez e qualidade. Profissionais competentes e comprometidos com o resultado.
+219,71,9,1,Equipe altamente profissional! Cumpriram o prazo e o resultado da reforma da minha cozinha ficou incrível. Recomendo totalmente.
+220,73,28,5,Contratei-os para uma reforma de banheiro e fiquei muito satisfeito com o resultado final. Ótimo trabalho e atenção aos detalhes.
+221,48,8,1,"""Excelente serviço de construção! Desde o planejamento até a execução, tudo foi feito com cuidado e competência. Muito obrigado!"""
+222,184,18,5,Profissionais pontuais e qualificados. Transformaram minha área externa de forma surpreendente. Recomendo!
+223,110,23,1,A reforma do meu escritório foi concluída no prazo e com excelente qualidade. Equipe comprometida e eficiente.
+224,139,18,1,Contratei-os para uma pequena reforma em casa e fiquei impressionado com o profissionalismo e a dedicação da equipe. Recomendo de olhos fechados!
+225,172,22,5,Serviço de construção excepcional! A equipe foi além das expectativas e entregou um trabalho de alta qualidade dentro do prazo estipulado.
+226,95,16,4,Estou muito contente com a reforma da minha sala. Profissionais atenciosos e habilidosos. Recomendo a todos!
+227,104,3,5,Equipe extremamente competente na execução da reforma da minha varanda. Preço justo e resultado final incrível!
+228,115,20,5,Serviço de construção impecável! Profissionais qualificados e comprometidos. Superaram minhas expectativas.
+229,4,21,1,Contratei-os para uma reforma em casa e o resultado foi além do esperado. Profissionais dedicados e serviço de alta qualidade.
+230,177,27,4,A empresa demonstrou grande expertise na reforma do meu apartamento. Pontualidade e comprometimento foram marcas do serviço prestado.
+231,132,28,1,Profissionais responsáveis e capacitados. A reforma do meu escritório foi realizada com eficiência e qualidade.
+232,114,6,1,"""Recomendo fortemente! Equipe de construção comprometida e competente, entregaram o projeto de acordo com o planejado."""
+233,172,29,2,Estou muito satisfeito com a reforma do meu banheiro. Profissionais ágeis e cuidadosos. Ótimo trabalho!
+234,141,10,2,Serviço de construção excepcional! Profissionais dedicados que entregaram um projeto além das expectativas.
+235,183,6,3,A reforma da minha cozinha foi feita com rapidez e qualidade. Profissionais competentes e comprometidos com o resultado.
+236,41,27,4,Equipe de construção altamente profissional. A reforma da minha casa foi concluída com perfeição.
+237,118,5,3,Serviço de reforma de extrema qualidade! Profissionais comprometidos e atenciosos com os detalhes.
+238,1,11,1,"""Excelente serviço de construção! Pontuais, competentes e entregaram o projeto conforme acordado. Recomendo sem dúvidas!"""
+239,65,16,4,"""Embora tenham concluído a reforma da minha cozinha dentro do prazo, alguns detalhes ficaram negligenciados. Precisam melhorar a atenção aos acabamentos."""
+240,166,2,5,"""O serviço de construção foi satisfatório, mas a comunicação durante o processo poderia ter sido mais clara. Sugiro mais transparência nas etapas do projeto."""
+241,96,27,1,"""A equipe foi pontual na reforma do meu banheiro, porém houve dificuldades na resolução de problemas imprevistos. Maior agilidade nas soluções seria benéfica."""
+242,171,23,1,"""Contratei-os para um projeto de construção. Embora o resultado final tenha sido bom, houve atrasos na entrega. Melhorias no cumprimento dos prazos são necessárias."""
+243,67,16,4,"""A reforma do meu escritório teve um bom acabamento, mas houve desafios na coordenação entre os profissionais envolvidos. Sugiro melhor organização entre as equipes."""
+244,146,15,5,"""O serviço de construção foi satisfatório, porém, a falta de sugestões criativas para otimização do espaço foi notável. Mais proatividade seria interessante."""
+245,132,26,2,"""Pontualidade foi um ponto forte na reforma da minha casa, porém, a limpeza pós-obra deixou a desejar. Sugiro mais atenção nesse aspecto para uma melhor experiência."""
+246,62,15,3,"""Apesar do bom serviço na reforma da área externa, a comunicação sobre mudanças no projeto foi pouco eficiente. Melhor articulação entre cliente e equipe seria vantajosa."""
+247,200,14,5,"""A reforma da minha varanda teve um resultado satisfatório, mas a falta de comprometimento com prazos foi um problema. Maior responsabilidade na gestão do tempo é crucial."""
+248,45,28,4,"""Houve um bom esforço na execução da construção, mas a falta de supervisão levou a alguns erros na fase inicial. Sugiro mais controle de qualidade desde o início do projeto."""
+249,85,18,1,"""A equipe foi atenciosa na reforma do meu apartamento, no entanto, a falta de cuidado na proteção de áreas adjacentes durante a obra foi notável. Maior zelo é necessário."""
+250,136,13,2,"""Contratei-os para uma reforma em casa. Apesar da qualidade do serviço, houve falta de transparência em relação aos materiais utilizados. Maior clareza seria positiva."""
+251,67,16,2,"""O serviço de construção atendeu às expectativas, mas a ausência de um plano de contingência para imprevistos prejudicou o andamento do projeto. Melhor preparação é necessária."""
+252,6,10,3,"""A equipe foi competente na reforma do meu escritório, no entanto, houve dificuldades na comunicação sobre alterações no projeto. Melhorias na comunicação são essenciais."""
+253,104,8,2,"""A reforma do meu banheiro teve um bom resultado final, porém, a falta de acompanhamento regular do progresso gerou incertezas. Recomendo maior feedback ao cliente."""
+254,61,21,2,"""Embora tenham entregado a construção no prazo, houve problemas com a qualidade de alguns materiais utilizados. Sugiro maior atenção à seleção de materiais de melhor qualidade."""
+255,66,23,1,"""A equipe foi comprometida na reforma da minha cozinha, mas alguns detalhes de acabamento foram negligenciados. Melhor atenção aos detalhes é fundamental."""
+256,138,15,1,"""O serviço de construção foi satisfatório, porém, houve falta de cuidado na proteção de áreas adjacentes durante a obra. Maior zelo com o ambiente é necessário."""
+257,98,28,1,"""Apesar do resultado final da reforma ter sido positivo, a falta de flexibilidade para ajustes no projeto foi um obstáculo. Sugiro maior adaptabilidade"""
+258,1,4,1,"""Embora tenham concluído a reforma da minha cozinha dentro do prazo, alguns detalhes ficaram negligenciados. Precisam melhorar a atenção aos acabamentos."""
+259,63,15,1,"""O serviço de construção foi satisfatório, mas a comunicação durante o processo poderia ter sido mais clara. Sugiro mais transparência nas etapas do projeto."""
+260,47,22,4,"""A equipe foi pontual na reforma do meu banheiro, porém houve dificuldades na resolução de problemas imprevistos. Maior agilidade nas soluções seria benéfica."""
+261,46,6,2,"""Contratei-os para um projeto de construção. Embora o resultado final tenha sido bom, houve atrasos na entrega. Melhorias no cumprimento dos prazos são necessárias."""
+262,16,30,3,"""A reforma do meu escritório teve um bom acabamento, mas houve desafios na coordenação entre os profissionais envolvidos. Sugiro melhor organização entre as equipes."""
+263,146,22,5,"""O serviço de construção foi satisfatório, mas houve divergências no orçamento inicial e final. Recomendo mais clareza nos custos extras durante o projeto."""
+264,35,9,3,"""Pontualidade foi um ponto forte na reforma da minha casa, porém, a limpeza pós-obra deixou a desejar. Sugiro mais atenção nesse aspecto para uma melhor experiência."""
+265,56,24,5,Equipe de construção altamente profissional. A reforma da minha casa foi concluída com perfeição.
+266,185,23,3,Serviço de reforma de extrema qualidade! Profissionais comprometidos e atenciosos com os detalhes.
+267,66,14,3,"""Excelente serviço de construção! Pontuais, competentes e entregaram o projeto conforme acordado. Recomendo sem dúvidas!"""
+268,188,16,1,"""A equipe foi pontual e comprometida na reforma do meu banheiro, porém, seria vantajoso oferecer opções mais sustentáveis de materiais para escolha dos clientes, alinhando-se às tendências ambientais."""
+269,110,29,4,"""O serviço de construção foi bem executado, no entanto, seria benéfico ter mais disponibilidade para reuniões intermediárias durante o projeto, para alinhar expectativas e ajustar detalhes conforme necessário."""
+270,166,5,4,"""A reforma da minha cozinha teve um ótimo resultado, mas seria interessante oferecer um portfólio mais diversificado de designs e estilos para inspirar os clientes na concepção do projeto."""
+271,144,2,2,"""Embora a equipe tenha sido atenciosa durante a construção, seria útil ter um sistema de comunicação mais eficiente para que o cliente possa acompanhar o progresso em tempo real, garantindo maior transparência."""
+272,65,14,3,"""O serviço prestado na reforma do meu escritório foi de qualidade, porém, seria valioso oferecer pacotes ou descontos para projetos maiores, incentivando os clientes a realizarem mais melhorias de uma vez."""
+273,181,12,2,"""Houve dedicação na construção, mas seria útil oferecer um serviço pós-obra, como um manual de manutenção ou garantia estendida, para garantir a durabilidade do trabalho realizado."""
+274,57,5,1,"""A equipe foi diligente na reforma da minha casa, no entanto, seria interessante oferecer opções de financiamento ou parcelamento, tornando o serviço mais acessível a diferentes perfis de clientes."""
+275,157,15,2,"""Apesar da qualidade do serviço, seria valioso disponibilizar um canal de feedback estruturado para os clientes expressarem suas necessidades e sugestões durante o processo de reforma."""
+276,105,5,1,"""O resultado da construção foi satisfatório, porém, seria benéfico oferecer um serviço de consultoria adicional para otimização de espaços, agregando ainda mais valor ao projeto."""
+277,171,21,3,"""A equipe foi comprometida na reforma do meu banheiro, mas seria vantajoso ter um acompanhamento pós-obra para garantir que todos os detalhes foram finalizados conforme acordado."""
+278,52,27,4,"""Apesar da qualidade do serviço, seria valioso disponibilizar um canal de feedback estruturado para os clientes expressarem suas necessidades e sugestões durante o processo de reforma."""
+279,78,10,1,"""O resultado da construção foi satisfatório, porém, seria benéfico oferecer um serviço de consultoria adicional para otimização de espaços, agregando ainda mais valor ao projeto."""
+280,74,12,3,"""A equipe foi comprometida na reforma do meu banheiro, mas seria vantajoso ter um acompanhamento pós-obra para garantir que todos os detalhes foram finalizados conforme acordado."""
+281,33,6,5,"""Embora a comunicação tenha sido clara, seria útil oferecer um serviço de assistência técnica por um período após a conclusão da reforma, para resolver eventuais problemas que possam surgir."""
+282,36,15,1,"""A qualidade do serviço foi boa, no entanto, seria valioso disponibilizar um catálogo mais amplo de fornecedores de materiais para dar mais opções aos clientes na escolha dos materiais."""
+283,196,20,3,"""Apesar da eficiência na execução, seria interessante oferecer um serviço de gerenciamento de resíduos mais robusto, visando a sustentabilidade e o descarte responsável dos materiais utilizados."""
+284,63,13,3,"""A equipe foi prestativa na reforma da minha cozinha, mas seria útil oferecer um programa de fidelidade ou indicação para clientes frequentes, incentivando sua fidelização."""
+285,8,7,3,"""Embora tenham entregado dentro do prazo, seria vantajoso disponibilizar um serviço de prévia virtual do projeto, utilizando tecnologias de realidade aumentada para visualização mais precisa."""
+286,184,24,4,"""A atenção aos detalhes foi boa, mas seria valioso oferecer um serviço de consultoria em decoração após a conclusão da reforma, para ajudar os clientes na ambientação do espaço."""
+287,92,18,3,"""Apesar da organização, seria interessante oferecer um serviço de garantia estendida para os materiais utilizados, assegurando aos clientes uma maior tranquilidade após a conclusão da obra."""
+288,86,19,5,"""A equipe foi comprometida na reforma do meu escritório, mas seria benéfico ter um sistema de gestão online, onde os clientes pudessem acompanhar o progresso e fazer comentários em tempo real."""
+289,78,9,3,"""Apesar da limpeza final, seria útil oferecer um serviço de manutenção preventiva para as instalações, ajudando os clientes a prolongarem a vida útil dos novos elementos da reforma."""
+290,66,30,1,"""A comunicação foi clara, mas seria valioso oferecer um serviço de atendimento pós-obra com um canal exclusivo para dúvidas ou emergências que possam surgir após a conclusão do projeto."""
+291,37,1,1,Equipe altamente profissional! Cumpriram o prazo e o resultado da reforma da minha cozinha ficou incrível. Recomendo totalmente.
+292,106,26,1,Contratei-os para uma reforma de banheiro e fiquei muito satisfeito com o resultado final. Ótimo trabalho e atenção aos detalhes.
+293,59,18,4,"""Excelente serviço de construção! Desde o planejamento até a execução, tudo foi feito com cuidado e competência. Muito obrigado!"""
+294,20,24,4,Profissionais pontuais e qualificados. Transformaram minha área externa de forma surpreendente. Recomendo!
+295,105,28,1,A reforma do meu escritório foi concluída no prazo e com excelente qualidade. Equipe comprometida e eficiente.
+296,51,12,1,Contratei-os para uma pequena reforma em casa e fiquei impressionado com o profissionalismo e a dedicação da equipe. Recomendo de olhos fechados!
+297,74,30,3,Serviço de construção excepcional! A equipe foi além das expectativas e entregou um trabalho de alta qualidade dentro do prazo estipulado.
+298,184,15,5,Estou muito contente com a reforma da minha sala. Profissionais atenciosos e habilidosos. Recomendo a todos!
+299,118,27,4,Equipe extremamente competente na execução da reforma da minha varanda. Preço justo e resultado final incrível!
+300,129,1,4,Serviço de construção impecável! Profissionais qualificados e comprometidos. Superaram minhas expectativas.
+301,186,26,2,Contratei-os para uma reforma em casa e o resultado foi além do esperado. Profissionais dedicados e serviço de alta qualidade.
+302,86,14,4,A empresa demonstrou grande expertise na reforma do meu apartamento. Pontualidade e comprometimento foram marcas do serviço prestado.
+303,37,8,4,Profissionais responsáveis e capacitados. A reforma do meu escritório foi realizada com eficiência e qualidade.
+304,142,18,1,"""Recomendo fortemente! Equipe de construção comprometida e competente, entregaram o projeto de acordo com o planejado."""
+305,101,21,3,Estou muito satisfeito com a reforma do meu banheiro. Profissionais ágeis e cuidadosos. Ótimo trabalho!
+306,8,4,5,Serviço de construção excepcional! Profissionais dedicados que entregaram um projeto além das expectativas.
+307,124,21,3,A reforma da minha cozinha foi feita com rapidez e qualidade. Profissionais competentes e comprometidos com o resultado.
+308,72,14,4,Equipe de construção altamente profissional. A reforma da minha casa foi concluída com perfeição.
+309,157,19,5,Serviço de reforma de extrema qualidade! Profissionais comprometidos e atenciosos com os detalhes.
+310,3,5,4,"""Excelente serviço de construção! Pontuais, competentes e entregaram o projeto conforme acordado. Recomendo sem dúvidas!"""
+311,171,21,1,"""Embora tenham concluído a reforma da minha cozinha dentro do prazo, alguns detalhes ficaram negligenciados. Precisam melhorar a atenção aos acabamentos."""
+312,179,11,2,"""O serviço de construção foi satisfatório, mas a comunicação durante o processo poderia ter sido mais clara. Sugiro mais transparência nas etapas do projeto."""
+313,177,18,3,"""A equipe foi pontual na reforma do meu banheiro, porém houve dificuldades na resolução de problemas imprevistos. Maior agilidade nas soluções seria benéfica."""
+314,26,19,3,"""Contratei-os para um projeto de construção. Embora o resultado final tenha sido bom, houve atrasos na entrega. Melhorias no cumprimento dos prazos são necessárias."""
+315,126,20,1,"""A reforma do meu escritório teve um bom acabamento, mas houve desafios na coordenação entre os profissionais envolvidos. Sugiro melhor organização entre as equipes."""
+316,71,3,4,"""Pontualidade foi um ponto forte na reforma da minha casa, porém, a limpeza pós-obra deixou a desejar. Sugiro mais atenção nesse aspecto para uma melhor experiência."""
+317,116,28,1,"""Apesar do bom serviço na reforma da área externa, a comunicação sobre mudanças no projeto foi pouco eficiente. Melhor articulação entre cliente e equipe seria vantajosa."""
+318,138,3,1,"""A reforma da minha varanda teve um resultado satisfatório, mas a falta de comprometimento com prazos foi um problema. Maior responsabilidade na gestão do tempo é crucial."""
+319,14,30,1,"""Houve um bom esforço na execução da construção, mas a falta de supervisão levou a alguns erros na fase inicial. Sugiro mais controle de qualidade desde o início do projeto."""
+320,19,7,2,"""A equipe foi atenciosa na reforma do meu apartamento, no entanto, a falta de sugestões criativas para otimização do espaço foi notável. Mais proatividade seria interessante."""
+321,27,9,2,"""Contratei-os para uma reforma em casa. Apesar da qualidade do serviço, houve falta de transparência em relação aos materiais utilizados. Maior clareza seria positiva."""
+322,158,6,4,"""O serviço de construção atendeu às expectativas, mas a ausência de um plano de contingência para imprevistos prejudicou o andamento do projeto. Melhor preparação é necessária."""
+323,110,8,4,"""A equipe foi competente na reforma do meu escritório, no entanto, houve dificuldades na comunicação sobre alterações no projeto. Melhorias na comunicação são essenciais."""
+324,2,19,1,"""Recomendo fortemente! Equipe de construção comprometida e competente, entregaram o projeto de acordo com o planejado."""
+325,177,11,2,Estou muito satisfeito com a reforma do meu banheiro. Profissionais ágeis e cuidadosos. Ótimo trabalho!
+326,62,22,4,Serviço de construção excepcional! Profissionais dedicados que entregaram um projeto além das expectativas.
+327,185,21,2,A reforma da minha cozinha foi feita com rapidez e qualidade. Profissionais competentes e comprometidos com o resultado.
+328,101,12,1,"""Pontualidade foi um ponto forte na reforma da minha casa, porém, a limpeza pós-obra deixou a desejar. Sugiro mais atenção nesse aspecto para uma melhor experiência."""
+329,83,14,3,Equipe de construção altamente profissional. A reforma da minha casa foi concluída com perfeição.
+330,150,23,2,Serviço de reforma de extrema qualidade! Profissionais comprometidos e atenciosos com os detalhes.
+331,160,14,4,"""Excelente serviço de construção! Pontuais, competentes e entregaram o projeto conforme acordado. Recomendo sem dúvidas!"""
+332,35,16,2,"""A equipe foi pontual e comprometida na reforma do meu banheiro, porém, seria vantajoso oferecer opções mais sustentáveis de materiais para escolha dos clientes, alinhando-se às tendências ambientais."""
+333,101,23,5,"""O serviço de construção foi bem executado, no entanto, seria benéfico ter mais disponibilidade para reuniões intermediárias durante o projeto, para alinhar expectativas e ajustar detalhes conforme necessário."""
+334,67,19,4,"""A reforma da minha cozinha teve um ótimo resultado, mas seria interessante oferecer um portfólio mais diversificado de designs e estilos para inspirar os clientes na concepção do projeto."""
+335,88,1,4,"""Embora a equipe tenha sido atenciosa durante a construção, seria útil ter um sistema de comunicação mais eficiente para que o cliente possa acompanhar o progresso em tempo real, garantindo maior transparência."""
+336,55,6,4,"""O serviço prestado na reforma do meu escritório foi de qualidade, porém, seria valioso oferecer pacotes ou descontos para projetos maiores, incentivando os clientes a realizarem mais melhorias de uma vez."""
+337,30,15,3,"""Houve dedicação na construção, mas seria útil oferecer um serviço pós-obra, como um manual de manutenção ou garantia estendida, para garantir a durabilidade do trabalho realizado."""
+338,118,28,1,"""A equipe foi diligente na reforma da minha casa, no entanto, seria interessante oferecer opções de financiamento ou parcelamento, tornando o serviço mais acessível a diferentes perfis de clientes."""
+339,27,17,2,"""Apesar da qualidade do serviço, seria valioso disponibilizar um canal de feedback estruturado para os clientes expressarem suas necessidades e sugestões durante o processo de reforma."""
+340,121,19,4,"""O resultado da construção foi satisfatório, porém, seria benéfico oferecer um serviço de consultoria adicional para otimização de espaços, agregando ainda mais valor ao projeto."""
+341,156,5,4,"""A equipe foi comprometida na reforma do meu banheiro, mas seria vantajoso ter um acompanhamento pós-obra para garantir que todos os detalhes foram finalizados conforme acordado."""
+342,173,9,1,"""Apesar da qualidade do serviço, seria valioso disponibilizar um canal de feedback estruturado para os clientes expressarem suas necessidades e sugestões durante o processo de reforma."""
+343,75,4,1,"""O resultado da construção foi satisfatório, porém, seria benéfico oferecer um serviço de consultoria adicional para otimização de espaços, agregando ainda mais valor ao projeto."""
+344,157,1,1,"""A equipe foi comprometida na reforma do meu banheiro, mas seria vantajoso ter um acompanhamento pós-obra para garantir que todos os detalhes foram finalizados conforme acordado."""
+345,113,14,2,"""Embora a comunicação tenha sido clara, seria útil oferecer um serviço de assistência técnica por um período após a conclusão da reforma, para resolver eventuais problemas que possam surgir."""
+346,78,30,2,"""A qualidade do serviço foi boa, no entanto, seria valioso disponibilizar um catálogo mais amplo de fornecedores de materiais para dar mais opções aos clientes na escolha dos materiais."""
+347,173,22,4,"""Apesar da eficiência na execução, seria interessante oferecer um serviço de gerenciamento de resíduos mais robusto, visando a sustentabilidade e o descarte responsável dos materiais utilizados."""
+348,191,3,2,"""A equipe foi prestativa na reforma da minha cozinha, mas seria útil oferecer um programa de fidelidade ou indicação para clientes frequentes, incentivando sua fidelização."""
+349,87,6,4,"""Embora tenham entregado dentro do prazo, seria vantajoso disponibilizar um serviço de prévia virtual do projeto, utilizando tecnologias de realidade aumentada para visualização mais precisa."""
+350,131,11,1,"""A atenção aos detalhes foi boa, mas seria valioso oferecer um serviço de consultoria em decoração após a conclusão da reforma, para ajudar os clientes na ambientação do espaço."""
+351,24,11,4,"""Apesar da organização, seria interessante oferecer um serviço de garantia estendida para os materiais utilizados, assegurando aos clientes uma maior tranquilidade após a conclusão da obra."""
+352,57,17,2,"""A equipe foi comprometida na reforma do meu escritório, mas seria benéfico ter um sistema de gestão online, onde os clientes pudessem acompanhar o progresso e fazer comentários em tempo real."""
+353,128,7,5,"""Apesar da limpeza final, seria útil oferecer um serviço de manutenção preventiva para as instalações, ajudando os clientes a prolongarem a vida útil dos novos elementos da reforma."""
+354,167,3,4,"""A comunicação foi clara, mas seria valioso oferecer um serviço de atendimento pós-obra com um canal exclusivo para dúvidas ou emergências que possam surgir após a conclusão do projeto."""
+355,119,11,3,Equipe altamente profissional! Cumpriram o prazo e o resultado da reforma da minha cozinha ficou incrível. Recomendo totalmente.
+356,139,26,5,Contratei-os para uma reforma de banheiro e fiquei muito satisfeito com o resultado final. Ótimo trabalho e atenção aos detalhes.
+357,132,6,2,"""Excelente serviço de construção! Desde o planejamento até a execução, tudo foi feito com cuidado e competência. Muito obrigado!"""
+358,53,19,4,Profissionais pontuais e qualificados. Transformaram minha área externa de forma surpreendente. Recomendo!
+359,157,18,2,A reforma do meu escritório foi concluída no prazo e com excelente qualidade. Equipe comprometida e eficiente.
+360,97,8,2,Contratei-os para uma pequena reforma em casa e fiquei impressionado com o profissionalismo e a dedicação da equipe. Recomendo de olhos fechados!
+361,146,10,1,Serviço de construção excepcional! A equipe foi além das expectativas e entregou um trabalho de alta qualidade dentro do prazo estipulado.
+362,130,27,5,Estou muito contente com a reforma da minha sala. Profissionais atenciosos e habilidosos. Recomendo a todos!
+363,109,24,1,Equipe extremamente competente na execução da reforma da minha varanda. Preço justo e resultado final incrível!
+364,158,18,4,Serviço de construção impecável! Profissionais qualificados e comprometidos. Superaram minhas expectativas.
+365,145,5,5,Contratei-os para uma reforma em casa e o resultado foi além do esperado. Profissionais dedicados e serviço de alta qualidade.
+366,10,6,2,A empresa demonstrou grande expertise na reforma do meu apartamento. Pontualidade e comprometimento foram marcas do serviço prestado.
+367,153,16,3,Profissionais responsáveis e capacitados. A reforma do meu escritório foi realizada com eficiência e qualidade.
+368,145,2,4,"""Recomendo fortemente! Equipe de construção comprometida e competente, entregaram o projeto de acordo com o planejado."""
+369,132,10,3,Estou muito satisfeito com a reforma do meu banheiro. Profissionais ágeis e cuidadosos. Ótimo trabalho!
+370,180,21,4,Serviço de construção excepcional! Profissionais dedicados que entregaram um projeto além das expectativas.
+371,64,24,1,A reforma da minha cozinha foi feita com rapidez e qualidade. Profissionais competentes e comprometidos com o resultado.
+372,94,13,1,Equipe de construção altamente profissional. A reforma da minha casa foi concluída com perfeição.
+373,86,22,4,Serviço de reforma de extrema qualidade! Profissionais comprometidos e atenciosos com os detalhes.
+374,132,3,3,"""Excelente serviço de construção! Pontuais, competentes e entregaram o projeto conforme acordado. Recomendo sem dúvidas!"""
+375,199,13,1,"""Embora tenham concluído a reforma da minha cozinha dentro do prazo, alguns detalhes ficaram negligenciados. Precisam melhorar a atenção aos acabamentos."""
+376,21,16,3,"""O serviço de construção foi satisfatório, mas a comunicação durante o processo poderia ter sido mais clara. Sugiro mais transparência nas etapas do projeto."""
+377,64,17,2,"""A equipe foi pontual na reforma do meu banheiro, porém houve dificuldades na resolução de problemas imprevistos. Maior agilidade nas soluções seria benéfica."""
+378,20,29,5,"""Contratei-os para um projeto de construção. Embora o resultado final tenha sido bom, houve atrasos na entrega. Melhorias no cumprimento dos prazos são necessárias."""
+379,186,17,3,"""A reforma do meu escritório teve um bom acabamento, mas houve desafios na coordenação entre os profissionais envolvidos. Sugiro melhor organização entre as equipes."""
+380,94,20,2,"""Pontualidade foi um ponto forte na reforma da minha casa, porém, a limpeza pós-obra deixou a desejar. Sugiro mais atenção nesse aspecto para uma melhor experiência."""
+381,119,27,1,"""Apesar do bom serviço na reforma da área externa, a comunicação sobre mudanças no projeto foi pouco eficiente. Melhor articulação entre cliente e equipe seria vantajosa."""
+382,91,18,3,"""A reforma da minha varanda teve um resultado satisfatório, mas a falta de comprometimento com prazos foi um problema. Maior responsabilidade na gestão do tempo é crucial."""
+383,41,20,1,"""Houve um bom esforço na execução da construção, mas a falta de supervisão levou a alguns erros na fase inicial. Sugiro mais controle de qualidade desde o início do projeto."""
+384,117,27,3,"""A equipe foi atenciosa na reforma do meu apartamento, no entanto, a falta de sugestões criativas para otimização do espaço foi notável. Mais proatividade seria interessante."""
+385,157,7,4,"""Contratei-os para uma reforma em casa. Apesar da qualidade do serviço, houve falta de transparência em relação aos materiais utilizados. Maior clareza seria positiva."""
+386,85,14,3,"""O serviço de construção atendeu às expectativas, mas a ausência de um plano de contingência para imprevistos prejudicou o andamento do projeto. Melhor preparação é necessária."""
+387,3,13,2,"""A equipe foi competente na reforma do meu escritório, no entanto, houve dificuldades na comunicação sobre alterações no projeto. Melhorias na comunicação são essenciais."""
+388,147,26,4,"""Recomendo fortemente! Equipe de construção comprometida e competente, entregaram o projeto de acordo com o planejado."""
+389,66,25,5,Estou muito satisfeito com a reforma do meu banheiro. Profissionais ágeis e cuidadosos. Ótimo trabalho!
+390,172,11,5,Serviço de construção excepcional! Profissionais dedicados que entregaram um projeto além das expectativas.
+391,62,27,4,A reforma da minha cozinha foi feita com rapidez e qualidade. Profissionais competentes e comprometidos com o resultado.
+392,5,21,5,"""Apesar da organização, seria interessante oferecer um serviço de garantia estendida para os materiais utilizados, assegurando aos clientes uma maior tranquilidade após a conclusão da obra."""
+393,172,6,5,"""A equipe foi comprometida na reforma do meu escritório, mas seria benéfico ter um sistema de gestão online, onde os clientes pudessem acompanhar o progresso e fazer comentários em tempo real."""
+394,80,13,5,"""Apesar da limpeza final, seria útil oferecer um serviço de manutenção preventiva para as instalações, ajudando os clientes a prolongarem a vida útil dos novos elementos da reforma."""
+395,12,20,1,"""A comunicação foi clara, mas seria valioso oferecer um serviço de atendimento pós-obra com um canal exclusivo para dúvidas ou emergências que possam surgir após a conclusão do projeto."""
+396,70,24,3,Equipe altamente profissional! Cumpriram o prazo e o resultado da reforma da minha cozinha ficou incrível. Recomendo totalmente.
+397,72,18,4,Contratei-os para uma reforma de banheiro e fiquei muito satisfeito com o resultado final. Ótimo trabalho e atenção aos detalhes.
+398,117,20,3,"""Excelente serviço de construção! Desde o planejamento até a execução, tudo foi feito com cuidado e competência. Muito obrigado!"""
+399,159,17,2,Profissionais pontuais e qualificados. Transformaram minha área externa de forma surpreendente. Recomendo!
+400,94,11,4,A reforma do meu escritório foi concluída no prazo e com excelente qualidade. Equipe comprometida e eficiente.

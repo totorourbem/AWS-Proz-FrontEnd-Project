@@ -92,3 +92,65 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
 }) 
+
+
+// Função para criar e renderizar os cartões dos colaboradores
+  function renderizarCartoes(colaboradores) {
+    const gridCartoes = document.getElementById('grid-cards');
+    gridCartoes.innerHTML = ''; // Limpar o conteúdo anterior
+
+    colaboradores.forEach(colaborador => {
+      const card = document.createElement('div');
+      card.classList.add('card');
+      card.style.width = '48%';
+
+      card.innerHTML = `
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="${colaborador.avatar}" class="card-img-top" alt="Avatar" style="height: 100%;">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h6 class="card-name"><strong>Nome:</strong> <i><em>${colaborador.nome}</em></i> </h6>
+              <p class="card-especialidade"><b><strong>Especialidade:</strong></b> <i><em>${colaborador.especialidade}</em></i> </p>
+              <p class="card-email"><b><strong>Email:</strong></b> <i><em>${colaborador.email}</em></i></p>
+              <p class="card-fone"><b><strong>Telefone:</strong></b> <i><em>${colaborador.fone}</em></i></p>
+              <p class="card-media"><b><strong>Nota Média:</strong></b> <i><em>${colaborador.nota_media}</em></i></p>
+            </div>
+          </div>
+        </div>
+      `;
+      gridCartoes.appendChild(card);
+    });
+  }
+
+  // Obtém os elementos do DOM
+  const especialidadeSelect = document.getElementById('especialidade');
+  const ordenarSelect = document.getElementById('ordenar');
+
+  // Event listener para atualizar os cartões quando o usuário alterar os filtros
+  especialidadeSelect.addEventListener('change', atualizarCartoes);
+  ordenarSelect.addEventListener('change', atualizarCartoes);
+
+  // Função para atualizar os cartões com base nos filtros selecionados
+  function atualizarCartoes() {
+    const especialidadeSelecionada = especialidadeSelect.value;
+    const ordenarPor = ordenarSelect.value;
+
+    // Filtrar colaboradores com base na especialidade selecionada
+    let colaboradoresFiltrados = dados.filter(colaborador => colaborador.especialidade === especialidadeSelecionada);
+
+    // Ordenar colaboradores com base na nota média
+    if (ordenarPor === 'ascendente') {
+      colaboradoresFiltrados.sort((a, b) => parseFloat(a.nota_media) - parseFloat(b.nota_media));
+    } else {
+      colaboradoresFiltrados.sort((a, b) => parseFloat(b.nota_media) - parseFloat(a.nota_media));
+    }
+
+    // Renderizar os cartões dos colaboradores filtrados e ordenados
+    renderizarCartoes(colaboradoresFiltrados);
+  }
+
+  // Chamada inicial para renderizar os cartões com os dados iniciais
+  atualizarCartoes();
+

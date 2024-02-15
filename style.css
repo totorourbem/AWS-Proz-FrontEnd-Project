@@ -1,0 +1,304 @@
+/* NORMALIZE CSS */
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+ol, ul {
+    list-style: none;
+}
+
+/*FIM DO NORMALIZE CSS*/
+
+/*Padrão de esclaa de cores e fontes*/
+:root{
+    --marinho1:#001F3F;
+    --marinho2: #31466A;
+    --aço1:#808080;
+    --aço2: #656565;
+    --aço3: #616161;
+    --cinza1:#F5F5F5;
+    --cinza2: #ebebeb;
+    --cinza3: #c2c2c2;
+    --coral1:#FF6B6B;
+    --coral2: #8F001A;
+    --branco:#ffffff;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto Slab', serif;
+}
+
+/*Padronagem de elementos mais genéricos do  site*/
+
+html {
+    height: 100%;
+}
+
+body {
+    background: var(--cinza1);
+    display: flex;
+    flex-direction: column;
+    font-size: 14px; /* Define o tamanho base */
+    margin: 3px;
+    padding: 1px;
+    height: 100%;
+}
+
+h2 {
+    color: var(--marinho1);
+    font-family: 'Roboto Slab', serif;
+    font-size: 2.2em;
+    line-height: 1.6em;
+}
+
+h3 {
+    color: var(--marinho1);
+    font-family: 'Roboto Slab', serif;
+    font-size: 1.6em;
+    line-height: 1.4em;
+}
+
+p {
+    color: var(--marinho1);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
+}
+
+a{
+    color:var(--marinho2);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover{
+    color: var(--coral1)
+}
+
+a:hover ::after {
+    color: var(--aço3)
+}
+
+/*Configurações de menu offcanvas e do header*/
+
+.btn-double-size {
+    width: 80px;
+    height: 80px;
+}
+
+.icon-custom-color {
+    color: var(--coral1);
+    font-size: 48px;
+}
+
+.social-icon {
+    filter: invert(100%) sepia(50%) saturate(80%) hue-rotate(90deg);
+    width: 40px;
+    height: 40px;
+    margin: 2px;
+    padding: 2px;
+    transition: color 0.3s ease; /* Adiciona transição suave ao filtro */
+}
+
+.social-icon:hover {
+    filter: invert(10%) hue-rotate(180deg) saturate(200%) blur(1px);
+    transition: color 0.3s ease; /* Adiciona transição suave ao filtro */
+    background-color: var(--coral1);    
+}
+
+#search-area {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2px;
+    margin-right: 38px;
+    background: var(--aço2);
+    border-radius: 5px;
+}
+
+#submit-search {
+    background-color: var(--coral1); 
+    color: white; /
+}
+
+#submit-search:hover {
+    background-color: var(--marinho2); 
+    color: white; /
+}
+
+#submit-search:focus {
+    background-color: var(--cinza2); 
+    box-shadow:  0  0  0  0.2rem;
+    color: white; /
+}
+
+.offcanvas-header, .offcanvas-body {
+    background: var(--cinza2);
+}
+
+#modal-header {
+    background: var(--aço3);
+     
+}
+
+.modal-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#btn-modal {
+    margin: 2px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#btn-modal > div {
+    margin: 2px;
+}
+
+/* configurações da area de conteudo */
+
+.container-fluid {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.main-content {
+    flex: 1;
+    height:  65vh; 
+    text-align: justify;
+    margin-right: 2%;
+    line-height: 1.6em;
+    overflow-y: auto; /* Habilita a barra de rolagem vertical quando necessário */
+}
+
+/*Configurações espeçifocas para a página cadastre-se*/
+
+form {
+    padding: 1em;
+}
+
+.article-form {
+    max-width: 100%;
+    margin: 1em;
+    padding: 1em;
+    font-size: 1em;
+    line-height: 1.8em;
+    text-align: center; /* Centraliza o texto */
+}
+
+.cadastro-section {
+    width: 25%;
+}
+
+.custom-input {
+    width: 400px;
+}
+
+.custom-feedback {
+    width: 380px;
+}
+
+#btn-cadastro {
+    margin: 2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#btn-cadastro > div {
+    margin: 20px;
+}
+
+/*Configurações espeçifocas para a página prestadores.htm*/
+
+#grid-prestadores {
+    display: flex;
+    flex-direction: column;
+}
+
+#nav-cards {
+    display: flex;
+    height: 2em;
+}
+
+#grid-cards {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.ad-area {
+    height:  60vh;
+    background-color: var(--branco); 
+}
+
+.footer {
+    flex-shrink: 0;
+    height:  10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2em; 
+    border: 1em;
+    background-color: var(--coral2);
+    border-radius: 1em;
+}
+
+#text-footer{
+    color: var(--branco);
+}
+#link-footer {
+    color: var(--coral1);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+#link-footer:hover {
+    color: var(--cinza2);
+}

@@ -1,127 +1,168 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset='utf-8'>
-        <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-        <title>Amigão - Contato</title>
-        <meta name='viewport' content='width=device-width, initial-scale=1'>
-        <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto+Slab:wght@700&display=swap" rel="stylesheet">
-        <link rel="stylesheet" type="text/css" media="screen" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
-        <script async src="https://cse.google.com/cse.js?cx=27a9e4d1557494c86">
-        </script>
-    </head>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto+Slab:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <title>Document</title>
+</head>
 <body>
-    <div id='burger-menu-open'>
-        <div id='search-area'>
-            <!-- Campo de pesquisa do Google Custom Search -->
-            <div class="gcse-searchbox-only"></div>
-        </div>
-
-        <nav>
-            <ul>
-                <li><a href='./index.html'>Inicial</a></li>
-                <hr style="border: none; border-top: 2px dotted #31466A;">
-                <li><a href='./cadastre-se.html'>Cadastre-se</a></li>
-                <hr style="border: none; border-top: 2px dotted #31466A;"">
-                <li><a href='./prestadores.html'>Prestadores de serviços</a></li>
-                <hr style="border: none; border-top: 2px dotted #31466A;">
-                <li><a href='./ofertas.html' class="menu-item">Ofertas</a></li>
-                <hr style="border: none; border-top: 2px dotted #31466A;">
-                <li><a href=#>Contato</a></li>
-                <hr style="border: none; border-top: 2px dotted #31466A;">
-            </ul>
-
-        </nav>
-    </div> 
-
-    <div id="modal-login-close">
-        <div id="modal-content">
-            <span id="close-modal">&times;</span>
-            <section>
-                <p> Insira seus dados para logar em nossa página ou <a href="./cadastre-se.html"> cadastre-se.</a></p>
-                <label for="email-login">Email:</label>
-                <input type="email" name="email-login" id="email-login">
-                <br>
-                <label for="senha-login">Senha: </label>
-                <input type="password" name="senha-login" id="senha-login">
-                <br>
-                <p> ou logue-se com uma de suas redes sociais</p>
-                <br>
-                <img src="./Assets/Continue_Gg.png" alt="Continue com Google" />
-                <br>
-                <img src="./Assets/Continue_FB.png" alt="Continue com Facebook" />
-                <br>
-            </section>
-        </div>
+  <!-- Área de navegação e cabeçalho-->
+  <!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <!-- Botão para acionar o off-canvas e área de logo -->
+  <div class="d-flex justify-content-between w-30">
+    <!-- Botão para acionar o off-canvas -->
+    <button type="button" class="btn btn-light btn-double-size" data-bs-toggle="offcanvas" data-bs-target="#demo">
+      <i class="fas fa-bars icon-custom-color"></i>
+    </button>
+    <!--Área de Logo-->
+    <div id="logo-header" class="d-flex justify-content-start">
+      <span id="logo-img" class="me-3">
+        <img src="./Images/Logo-bricks.svg" alt="Logo" height="70px">
+      </span>
+      <span id="sublogo" class="ms-3">
+        <h2 style="font-family: 'Roboto Slab', serif;">Amigão</h2>
+        <h3 style="font-family: 'Roboto Slab', serif;">Seu hub de construção!</h3>
+      </span>
     </div>
-
-
-    <div id = 'content-menu-open'>
-        
-        <header>
-            <div id='menu-button'>
-                <img src="./Images/bars-solid.svg" width="90px" height="90px" id="menubtn"/>
-            </div>
-            <div id='logo'>
-                <span>
-                <img src="./Images/Logo-bricks.svg" alt="Logo" height="80px">
-                </span>
-                <span id="sublogo">
-                <h1>Amigão</h1>
-                <h2>Seu hub de construção!</h2>
-                </span>
-            </div>
-            <div id='social-dock'>
-                <img src="./Images/facebook.svg" class='social-icon'/>
-                <img src="./Images/x.svg" class='social-icon'/>
-                <img src="./Images/whatsapp.svg" class='social-icon'/>
-                <img src="./Images/linkedin.svg" class='social-icon'/>
-                <img src="./Images/login.svg" class='social-icon' id="loginbtn"/>
-             </div>
-            <hr style="border: none; border-top: 1px solid #FF6B6B; color: #FF6B6B; background-color: #FF6B6B; height: 10px; width: auto">
-        </header>
-
-        <div id="main-content">
-            
-            <article>
-                <h1>Contate-nos</h1>
-                <br>
-                <br>
-                <p>Olá,</p>
-                <br>
+  </div>
+  <!-- Formulário de busca e social dock -->
+  <div class="d-flex flex-column ms-auto col-3" id="search-area">
+    <!-- Formulário de busca -->
+    <form class="d-flex">
+      <input class="form-control me-2" type="text" placeholder="Pesquisar...">
+      <button class="btn btn-outline-primary" type="submit" id="submit-search">
+        <i class="fas fa-search"></i>
+      </button>
+    </form>
+    <!-- Social Dock -->
+    <div id="social-dock" class="d-flex justify-content-end mt-3">
+      <img src="./Images/facebook.svg" class="social-icon"/>
+      <img src="./Images/x.svg" class="social-icon"/>
+      <img src="./Images/whatsapp.svg" class="social-icon"/>
+      <img src="./Images/linkedin.svg" class="social-icon"/>
+      <!-- Button to Open the Modal -->
+      <img src="./Images/login.svg" class="social-icon" id="loginbtn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+      <!-- The Modal -->
+      <div class="modal" id="myModal">
+        <div class="modal-dialog">
+          <div class="modal-content">
+          <!-- Modal Header -->
+          <div class="modal-header">
+            <h4 class="modal-title">Logue e confira mais detalhes:</h4>
+          <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+          </div>
+          <!-- Modal body -->
+          <div class="modal-body">
+            <form class="was-validated">
+                <div class="mb-3 mt-3">
+                    <label for="email-login" class="form-label">Email:</label>
+                    <input type="email" name="email-login" id="email-login" class="form-control" required>
+                    <div class="invalid-feedback">
+                        Por favor, insira um endereço de e-mail válido.
+                    </div>
+                </div>
+                <div class="mb-3">
+                    <label for="senha-login" class="form-label">Senha: </label>
+                    <input type="password" name="senha-login" id="senha-login" class="form-control" required>
+                    <div class="invalid-feedback">
+                        Por favor, insira sua senha.
+                    </div>
+                </div>
+                <button type="submit" class="btn btn-outline-secondary">Submit</button>
+            </form>
+        </div>
+          <!-- Modal footer -->
+          <div class="modal-footer">
+            <p> 
+              ou logue-se com uma de suas redes sociais:
+            </p>
+            <div id="btn-modal">
+              <div id="btn-google">
+                <button type="button" class="btn btn-primary bg-danger">
+                  <i class="fab fa-google"></i> Login com Google
+                </button>
+              </div> 
+              <div id="btn-facebook">
+                <button type="button" class="btn btn-primary bg-important">
+                  <i class="fab fa-facebook-f"></i> Login com Facebook
+                </button>
+              </div>  
+            </div>    
+          </div>
+         </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>
+  <!-- Off-canvas menu -->
+  <div class="offcanvas offcanvas-start" id="demo">
+    <div class="offcanvas-header">
+      <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"></button>
+    </div>
+    <div class="offcanvas-body">
+      <ul class="list-group list-group-flush">
+        <li class="list-group-item"><a href="./index.html" class="menu-item">Inicial</a></li>
+        <li class="list-group-item"><a href="./cadastre-se.html" class="menu-item">Cadastre-se</a></li>
+        <li class="list-group-item"><a href="./prestadores.html" class="menu-item">Prestadores de serviços</a></li>
+        <li class="list-group-item"><a href="./ofertas.html" class="menu-item">Ofertas</a></li>
+        <li class="list-group-item"><a href="#">Contato</a></li>
+      </ul>
+    </div>
+  </div>  
+  <div class="container-fluid">
+    <!-- Aŕea do conteúdo principal -->
+    <div class="row main-content">
+        <div class="col-9">
+          <header>
+            <h2>Contate-nos</h2>
+          </header>
+          
+          <main>
+            <section>
+              <article>
                 <p>Agradecemos por entrar em contato conosco. Somos um hub de construção que oferece uma ampla gama de serviços para atender às suas necessidades. Se você está procurando por materiais de construção de alta qualidade, temos parcerias com os principais fornecedores do mercado. Se precisa de mão de obra qualificada, temos uma equipe de profissionais experientes prontos para ajudar em seu projeto. Além disso, oferecemos serviços de consultoria para auxiliá-lo na tomada de decisões estratégicas.</p>
                 <br>
                 <p> Nosso objetivo é fornecer soluções completas e eficientes para tornar sua experiência na construção mais fácil e satisfatória. Estamos comprometidos em oferecer um atendimento personalizado, garantindo que suas necessidades sejam atendidas da melhor maneira possível.</p>
                 <br>
                 <p>Se você tiver alguma dúvida específica ou precisar de mais informações sobre nossos serviços, não hesite em entrar em contato por:</p>
                 <br>
+                <article>
                 <ul>
                     <li><b>Telefone:</b> 0800 -600-0800</li>
                     <li><b>email: amigaohub@gmail.com</b> </li>
                     <li><b>WhatsApp:</b> 0800 -600-0800</li>  
                 </ul>
+                </article>
                 <br>
                 <p>Nosso horário de atendimento é de segunda a sábado, das 08h as 18h.</p>
                 <br>
                 <p>Atenciosamente,</p>
                 <br>
-                <p>Equipe do Hub de Construção</p>            
-            </article>
-
-            <div id='ad'> 
-                área de anuncios
-            </div>
-
+                <p>Equipe do Hub de Construção</p>
+              </article>      
+            </section>
+          </main>
         </div>
-    
-        <footer>
-            <h2><a href="https://github.com/totorourbem/AWS-Proz-FrontEnd-Project">Projeto-piloto para Curso Talento cloud/Proz/AWS!</a> 2024 &copy;</h2>
-        </footer>
+        <div class="col-3 ad-area">
+          Seu anuncio aqui!          
+        </div>
+    <!-- Area de rodapé -->
+    <div class="footer">
+      <h3 id="text-footer"><a id="link-footer" href="https://github.com/totorourbem/AWS-Proz-FrontEnd-Project">Projeto-piloto para Curso Talento Cloud/Proz/AWS!</a> 2024 &copy;</h3>
+    </div>
+</div>
 
-    </div>    
-    <script src='main.js' defer></script>
+    <script src="./node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="./node_modules/@popperjs/core/dist/umd/popper.min.js"></script>
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./main.js"></script>
 </body>
 </html>

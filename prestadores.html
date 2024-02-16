@@ -109,9 +109,9 @@
     </div>
     <div class="offcanvas-body">
       <ul class="list-group list-group-flush">
-        <li class="list-group-item"><a href="#">Inicial</a></li>
+        <li class="list-group-item"><a href="./index.html" class="menu-item">Inicial</a></li>
         <li class="list-group-item"><a href="./cadastre-se.html" class="menu-item">Cadastre-se</a></li>
-        <li class="list-group-item"><a href="./prestadores.html" class="menu-item">Prestadores de serviços</a></li>
+        <li class="list-group-item"><a href="#">Prestadores de serviços</a></li>
         <li class="list-group-item"><a href="./ofertas.html" class="menu-item">Ofertas</a></li>
         <li class="list-group-item"><a href="./contato.html" class="menu-item">Contato</a></li>
       </ul>
@@ -124,27 +124,30 @@
           <article id="grid-prestadores">
             <h2>Conheça alguns de nosso prestadores, cadastrados nesse hub!</h2>
               <section id="nav-cards">
-                <label for="especialidade">Especialidade:</label>
-                <select id="especialidade" name="especialidade">
-                  <option value="Acabamentos">Acabamentos</option>
-                  <option value="Alvenaria e infraestrutura">Alvenaria e infraestrutura</option>
-                  <option value="Carpintaria">Carpintaria</option>
-                  <option value="Elétrica">Elétrica</option>
-                  <option value="Hidráulica">Hidráulica</option>
-                  <option value="Reparos">Pequenos Reparos</option>
-                  <option value="Pintura">Pintura</option>
-                </select>
-                <label for="ordenar">Ordenar por:</label>
-                <select id="ordenar" name="ordenar">
-                  <option value="descendente">Melhores médias</option>
-                  <option value="ascendente">Piores médias</option>
-                <input type="submit" id="submit-ordem" value="Filtrar">
+                <form>
+                  <select id="especialidade-selecionada">
+                    <option value="Todos">Todos</option>
+                    <option value="Acabamentos">Acabamentos</option>
+                    <option value="Alvenaria e infraestrutura">Alvenaria e infraestrutura</option>
+                    <option value="Carpintaria">Carpintaria</option>
+                    <option value="Elétrica">Elétrica</option>
+                    <option value="Hidráulica">Hidráulica</option>
+                    <option value="Pequenos Reparos">Pequenos Reparos</option>
+                    <option value="Pintura">Pintura</option>
+                  </select>
+                  <span>
+                    <input type="radio" id="ordenar1" name="ordenar1" value="descendente" checked>Ordenar por melhores médias
+                    <label for="ordenar1"></label>                
+                    <input type="radio" id="ordenar2" name="ordenar1" value="ascendente">Ordenar por piores médias
+                    <label for="ordenar2"></label>
+                  </span>
+                </form>  
               </section>
                   <div id="grid-cards" class="row col-9">
-                    <div class="card" style="width: 48%;">
+                    <div class="card" style="width:48%; margin: 2px;">
                       <div class="row g-0">
-                        <div class="col-md-4">
-                          <img src="./Assets/colab7.jpg" class="card-img-top" alt="Avatar" style="height: 100%;">
+                        <div class="col-md-4 d-flex align-items-center">
+                          <img src="./Assets/colab7.jpg" class="card-img-top card-img-bottom" alt="Avatar" style="height: 90%;">
                         </div>
                         <div class="col-md-8">
                           <div class="card-body">
@@ -153,14 +156,19 @@
                             <p class="card-email"><b><strong>Email:</strong></b> <i><em>cardosomilena@gmail.com</em></i></p>
                             <p class="card-fone"><b><strong>Telefone:</strong></b> <i><em>(43)91978-7507</em></i></p>
                             <p class="card-media"><b><strong>Nota Média:</strong></b> <i><em>3.2727</em></i></p>
-                          </div>
+                          </div> 
                         </div>
+                      <div class="d-grid">
+                        <button type="button" class="btn btn-sm btn-outline-secondary" data-toggle="collapse" data-target="#detalhesItem">
+                        <i class="fas fa-chevron-down">clique para ver mais detalhes</i>
+                        </button>
+                      </div>    
                       </div>
                     </div>
                     <div class="card" style="width: 48%;">
                       <div class="row g-0">
                         <div class="col-md-4">
-                          <img src="./Assets/Colab1.jpg" class="card-img-top" alt="Avatar" style="height: 100%;">
+                          <img src="./Assets/Colab1.jpg" class="card-img-top" alt="Avatar" style="height: 90%;">
                         </div>
                         <div class="col-md-8">
                           <div class="card-body">

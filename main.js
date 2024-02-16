@@ -182,3 +182,30 @@ const dados = [
         prestador_id: "20"
       },  
 ]
+
+dadosSelecionados = [];
+
+let valorSelecionado = document.getElementById('especialidade-selecionada');
+
+  // Adicionando um ouvinte de evento para o evento 'change'
+  valorSelecionado.addEventListener('change', function() {
+    // Obtendo o valor selecionado
+    let valorSelecionado = valorSelecionado.value;
+    // Percorrendo o array de dados
+  for (var i = 0; i <= dados.length; i++) {
+    if (dados[i]['especialidade'] === "Carpintaria") {
+      dadosSelecionados.push(dados[i]);
+    }
+  }})
+
+
+// Lógica possivel com for
+// dadosSelecionados = [];
+
+// for (var i = 0; i < dados.length; i++) {
+//   if (dados[i]['especialidade'] === "Carpintaria") {
+//     dadosSelecionados.push(dados[i]);
+//     }
+// }
+
+// console.log(dadosSelecionados)  
